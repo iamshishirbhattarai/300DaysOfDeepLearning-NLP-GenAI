@@ -64,3 +64,25 @@ forcing the network to learn more robust features. <br> <br> ![dropout](Day1_To_
 It is done to ensure that backpropagation is implemented correctly, helping identify bugs in the gradient computation. <br> <br> ![GradientChecking](Day1_To_10/day2_gradCheck.png)
 
 ___
+
+## Day 3
+
+Completed the week 2 of the course that I started yesterday. The week was about **Optimization Alogrithms**. This includes the topics like
+**Mini-Batch Gradient Descent**, **Gradient Descent With Momentum**, **RMSprop**, **Adam Optimization Algorithm** and **Learning Rate Decay**.
+<br> <br>
+Putting my understanding on brief with snippets from course slides as follows : <br> <br>
+
+- **Mini-Batch Gradient Descent :** **Mini-batch gradient descent** updates model parameters by computing gradients on small, random subsets (mini-batches)
+of the training data, combining the benefits of both **batch** (size = m) and **stochastic** (size = 1) gradient descent. It strikes a balance between fast convergence and stable optimization,
+making it well-suited for large datasets and neural networks. <br> <br> ![MiniBatch](Day1_To_10/day3_miniBatch.png) <br> <br>
+- **Gradient Descent With Momentum :** It enhances optimization by accumulating a velocity term (**exponentially weighted average** of past gradients) to maintain
+direction, reducing oscillations and speeding up convergence, especially in regions with high curvature. <br> <br> ![GradientDescentWithMomentum](Day1_To_10/day3_gradientDescentWithMomentum.png) <br> <Br>
+- **RMSprop :** **RMSprop** adapts the learning rate for each parameter by dividing the gradient by the square root of an exponentially weighted average of past squared gradients, 
+helping the optimization converge faster and avoid oscillations, especially in non-convex problems. <br> <br> ![RMSProp](Day1_To_10/day3_RMSprop.png) <br> <br>
+- **Adam Optimization Algorithm :** It combines the benefits of **Momentum** and **RMSprop** by maintaining both an exponentially weighted average of 
+past gradients (like Momentum) and past squared gradients (like RMSprop) to adapt the learning rate for each parameter. This dual mechanism helps Adam achieve faster
+convergence with smoother updates, making it well-suited for complex, non-convex problems. <br> <br> ![Adam](Day1_To_10/day3_adamOptimization.png) <br> <br>
+- **Learning Rate Decay :** **Learning rate decay** reduces the learning rate progressively during training to ensure faster initial convergence and finer adjustments in later stages, 
+preventing the model from overshooting the optimal solution. It improves stability by starting with larger updates and gradually decreasing the step size as the model approaches the minimum.
+
+___
