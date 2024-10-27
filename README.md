@@ -86,3 +86,22 @@ convergence with smoother updates, making it well-suited for complex, non-convex
 preventing the model from overshooting the optimal solution. It improves stability by starting with larger updates and gradually decreasing the step size as the model approaches the minimum.
 
 ___
+
+## Day 4
+
+Completed the another course from the specialization : **Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization**.
+The remaining portion was about the **Hyperparameter Tuning**, **Batch Normalization**, **Softmax Regression** and **Tensorflow Introduction**. 
+<br> <br>
+Putting my understanding on brief with snippets from course slides as follows : <br> <br>
+
+- **Hyper-parameter Tuning :** It is the process of optimizing predefined settings like learning rate, batch size, and architecture 
+to improve model performance. It involves techniques such as grid search or random search to efficiently explore the hyperparameter space. <br> <br>
+- **Batch Normalization :** It is a technique that normalizes activations of each layer within a mini-batch, ensuring stable distributions 
+throughout training. It speeds up convergence, reduces internal covariate shift, and helps mitigate issues like vanishing or exploding gradients.
+<br> <br> ![batchnorm](Day1_To_10/day4_batchNorm.png)
+- **Softmax Regression :** It is a generalization of logistic regression that predicts probabilities across multiple classes by applying the softmax function to convert 
+logits into a probability distribution. <br> <br> ![softmax](Day1_To_10/day4_softmax.png) <br> <br>
+- **Basic Tensorflow Introduction :** It is an open-source machine learning framework developed by Google that facilitates building, training, and deploying machine l
+earning and deep learning models across various platforms. <br> <br> ![Tensorflow](Day1_To_10/day4_tensorflow.png)
+
+___
