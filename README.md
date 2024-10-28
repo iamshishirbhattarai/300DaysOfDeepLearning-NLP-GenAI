@@ -105,3 +105,27 @@ logits into a probability distribution. <br> <br> ![softmax](Day1_To_10/day4_sof
 earning and deep learning models across various platforms. <br> <br> ![Tensorflow](Day1_To_10/day4_tensorflow.png)
 
 ___
+
+## Day 5
+
+Today I completed the next course from the specialization : **Structuring Machine Learning Projects**. In this course I learnt to diagnose errors in a machine learning system; 
+prioritize strategies for reducing errors; understand complex ML settings, such as **mismatched training/test sets**, and **comparing to and/or surpassing human-level performance**; and apply 
+**end-to-end learning**, **transfer learning**, and **multi-task learning**. <br> <br>
+
+Putting simple understanding with snippets from course slides as follows :
+
+- **Mismatched training/test sets :** This occurs when the data distributions of the two sets differ significantly, leading to biased or misleading evaluation
+results. This can result in overestimated model performance during training, as the model may not generalize well to the test set due to variations in features,
+contexts, or conditions not present in the training data. <br> <br> ![mismatch](Day1_To_10/day5_dataMismatch.png) <br> <br>
+- **End-to-end Learning :** It is a machine learning approach where the entire process from input to output is modeled as a single system, allowing the algorithm
+to automatically learn all the necessary features and transformations directly from the raw data without the need for manual feature extraction. 
+ <br> <br> ![EndToEndLearning](Day1_To_10/day5_endToEndLearning.png) <br> <br>
+- **Transfer Learning :** It is a technique where a model pre-trained on one task or dataset is fine-tuned on a different but related task, 
+leveraging prior knowledge to improve performance and reduce training time. <br> <br> ![TransferLearning](Day1_To_10/day5_transferLearning.png) <br> <br>
+- **Multi-task learning :** It is an approach where a model is trained simultaneously on multiple related tasks, allowing it to leverage shared 
+information across tasks to improve generalization and performance. <br> <br> ![multi-task-learning](Day1_To_10/day5_multiTaskLearning.png) 
+
+___
+
+
+
