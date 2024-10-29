@@ -127,5 +127,18 @@ information across tasks to improve generalization and performance. <br> <br> ![
 
 ___
 
+## Day 6
 
+Today I started the next course from the specialization : **Convolutional Neural Networks**. I just had understanding on
+the **Edge Detection** and **Padding**. <br> <br>
 
+Putting my understanding along with snippets from the course slides as follows : <br> <br>
+
+- **Edge Detection :** It the process of identifying the boundaries or outlines of objects in an image. It helps in extracting 
+structural information, which is crucial for object detection, segmentation, and other computer vision tasks. <br> <br> 
+   ![edgeDetectionA](Day1_To_10/day6_edgeDetectionA.png) <br> <br> ![edgeDeteectionB](Day1_To_10/day6_edgeDetectionB.png) <br> <br>
+- **Padding :** It refers to adding extra pixels (usually zeros) around the input image to control the spatial dimensions of the output 
+feature map. It helps preserve more information at the edges and ensures the output size remains consistent, especially with multiple convolutional layers.
+ <br> <br> ![paddingA](Day1_To_10/day6_paddingA.png) <br> <br> ![paddingB](Day1_To_10/day6_paddingB.png) <br> <br>
+
+___
