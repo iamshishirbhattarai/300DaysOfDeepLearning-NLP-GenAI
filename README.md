@@ -142,3 +142,21 @@ feature map. It helps preserve more information at the edges and ensures the out
  <br> <br> ![paddingA](Day1_To_10/day6_paddingA.png) <br> <br> ![paddingB](Day1_To_10/day6_paddingB.png) <br> <br>
 
 ___
+
+## Day 7
+
+Dived deeper into the **CNN**. Putting understandings on various topics with snippets from course slides as follows : 
+
+- **Strided Convolutions :** It refers to convolution operations where the filter moves across the input with a specified step size (stride),
+which can be 1 or greater, determining how much the filter shifts between applications; when the stride is greater than 1, the operation
+performs both convolution and downsampling by reducing the spatial dimensions of the output. <br> <br> ![stridedConvolutions](Day1_To_10/day7_stridedConvolution.png) <br> <br>
+- **Convolutions on RGB Image :** While we were observing the grayscale images preivously, got to know convolutions on RGB image. <br> <br>
+    ![RGBConvolutions](Day1_To_10/day7_convoRGB.png) <br> <br>
+- **Types of layer in convolutions :** <br> 1. **Convolution (CONV)** <br> <br> ![ConvolutionLayer](Day1_To_10/day7_ConvNetExampleA.png) <br> <br> 2. **Pooling**
+   <br> <br> i. **Max pooling** is a down sampling operation that extracts the maximum value from each region of the input, reducing spatial dimensions while retaining important features.
+    <br> <br> ![maxPooling](Day1_To_10/day7_maxPooling.png) <br> <br> ii. **Average Pooling** Average pooling is a downsampling operation that reduces spatial dimensions
+    by computing the average value from each region of the input. <br> <br> ![averagePooling](Day1_To_10/day7_avgPooling.png) <br> <br> 3. **Fully Connected** 
+    connects every neuron from the previous layer to every neuron in the current layer, learning global patterns across the entire input. <br> <br>
+    Representing every layers in one neural network : <br> <br> ![CNN](Day1_To_10/day7_CNNExample.png) <br> <br>
+
+___
