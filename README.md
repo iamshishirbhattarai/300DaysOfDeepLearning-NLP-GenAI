@@ -160,3 +160,12 @@ performs both convolution and downsampling by reducing the spatial dimensions of
     Representing every layers in one neural network : <br> <br> ![CNN](Day1_To_10/day7_CNNExample.png) <br> <br>
 
 ___
+
+## Day 8
+
+Today I implemented **convolutional Neural Networks : Forward Pass** step by step. Attaching the snippets below : <Br> <br>
+
+- ![zeroPad](Day1_To_10/day8_zeroPad.png) <br> <br> ![convSingleStep](Day1_To_10/day8_convSingleStep.png) <br> <br> ![convForward](Day1_To_10/day8_convForward.png) 
+    <br> <br> ![poolForward](Day1_To_10/day8_poolForward.png) <br> <br>
+ 
+___
