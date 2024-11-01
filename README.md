@@ -169,3 +169,20 @@ Today I implemented **convolutional Neural Networks : Forward Pass** step by ste
     <br> <br> ![poolForward](Day1_To_10/day8_poolForward.png) <br> <br>
  
 ___
+
+## Day 9
+
+Today I studied about **Classic Networks :** **LeNet-5**, **AlexNet** and **VGG-16**. <br> <br> Putting my understanding with snippets from course slides as follows : <br> <br>
+
+- **LeNet-5 :** It is one of the first neural networks for recognizing images, created to help computers read handwritten numbers. It uses layers that first
+find small patterns in images and then combine them to understand bigger details, allowing it to recognize numbers accurately. <br> <br>
+    ![LeNet-5](Day1_To_10/day9_LeNet5.png) <br> <br>
+- **AlexNet :** It is a deep convolutional neural network developed by **Alex Krizhevsky** in 2012, designed to improve image classification accuracy with a much larger and 
+more complex architecture than earlier models like LeNet. It has multiple layers of convolution, pooling, and fully connected layers, using ReLU activation and dropout to 
+handle larger datasets, which led to a breakthrough in image recognition on the ImageNet dataset. <br> <br> ![AlexNet](Day1_To_10/day9_AlexNet.png) <br> <br>
+- **VGG-16 :** It is a deep convolutional neural network developed by the **Visual Geometry Group (VGG)** that uses a straightforward 
+architecture with **16 layers** to achieve high performance in image classification tasks. Its design relies on stacking small 3x3 
+convolutional filters and pooling layers, which allows it to capture fine details in images and deliver powerful, accurate image recognition.
+<br> <br> ![VGG-16](Day1_To_10/day9_VGG16.png)
+
+___
