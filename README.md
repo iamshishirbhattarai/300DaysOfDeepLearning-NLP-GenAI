@@ -16,9 +16,10 @@ ___
 
 ## Research Papers
 
-| **S.N.** | **Papers**                                                                                          | 
-|----------|-----------------------------------------------------------------------------------------------------|
-| **1.**   | [**Learning representations by back-propagating errors**](https://www.nature.com/articles/323533a0) |        
+| **S.N.** | **Papers**                                                                                                                                                                   | 
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1.**   | [**Learning representations by back-propagating errors**](https://www.nature.com/articles/323533a0)                                                                          |
+| **2.**   | [**ImageNet Classification with Deep Convolutional Neural Networks**](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) |
 
 
 
@@ -184,5 +185,22 @@ handle larger datasets, which led to a breakthrough in image recognition on the 
 architecture with **16 layers** to achieve high performance in image classification tasks. Its design relies on stacking small 3x3 
 convolutional filters and pooling layers, which allows it to capture fine details in images and deliver powerful, accurate image recognition.
 <br> <br> ![VGG-16](Day1_To_10/day9_VGG16.png)
+
+___
+
+## Day 10
+
+Today I studied about **ResNet** and **1 X 1 Convolution** and also went through the paper on **AlexNet** : [**ImageNet Classification with Deep Convolutional Neural Networks**](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf).
+Will discuss the paper after finishing it. For today, let's discuss the following : <br> <br>
+
+- **ResNet :** ResNet is a deep neural network that uses **residual blocks** to make training very deep networks easier and more effective.
+Each residual block has a shortcut connection, allowing the input to skip over intermediate layers and be added to the output, which helps
+prevent issues like vanishing gradients. This structure lets ResNet learn small improvements (residuals) over the original input, making 
+it more efficient at learning complex features without getting "stuck" as the network depth increases. <br> <br> ![residualBlock](Day1_To_10/day10_residualBlock.png) <br> <br>
+    ![resNet](Day1_To_10/day10_resNet.png) <br> <br>
+- **1 X 1 Convolution :** A **1x1 convolutional layer** applies a filter of size 1 X 1, allowing it to process each pixel individually while combining 
+information from different channels. This layer is highly efficient for **reducing or expanding depth** (channel size) and **recomputing feature 
+representations** without altering the spatial dimensions, making it useful for computational efficiency and richer feature learning.
+    <br> <br> ![1X1Conv](Day1_To_10/day10_1By1Convolution.png) <br> <br>
 
 ___
