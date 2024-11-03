@@ -204,3 +204,22 @@ representations** without altering the spatial dimensions, making it useful for 
     <br> <br> ![1X1Conv](Day1_To_10/day10_1By1Convolution.png) <br> <br>
 
 ___
+
+## Day 11
+
+I studied about **Inception Network**, **MobileNet**, **EfficientNet** and got practical advices for using **ConvNets**. <br> <br>
+
+Putting my understanding with some slide snippets from the course as follows : <br> <br>
+
+- **Inception Network :** It is a deep convolutional neural network architecture designed to achieve high accuracy with efficient
+computation by combining multiple filter sizes at each layer to capture a range of feature scales. Its core building block,
+the **Inception module**, integrates parallel convolution operations of different filter sizes within a single layer, allowing the
+network to process features at various scales simultaneously. Together, the Inception modules enable the Inception network to 
+improve performance without drastically increasing computational costs. <br> <br> ![InceptionMoudle](Day11_To_20/day11_inceptionModule.png) <br> <br>
+    ![inceptionNet](Day11_To_20/day11_inceptionNet.png) <br> <br> 
+- **MobileNet :** It is a lightweight convolutional neural network that achieves computational efficiency by using **depthwise separable convolutions**
+instead of standard convolutions throughout its layers. In this structure, **the depthwise convolution** applies a single filter per input channel to capture 
+spatial information, followed by a **pointwise convolution** to combine these channels, drastically reducing the number of parameters and computations required.
+    <br> <br> ![depthwiseSeparableConvolution](Day11_To_20/day11_depthwiseSeparableConvolution.png) <br> <br> ![MobileNet](Day11_To_20/day11_mobileNet.png) <br> <br>
+- **EfficientNet :** It is a family of convolutional neural networks that achieves high accuracy and efficiency by uniformly scaling 
+network depth, width, and resolution using a compound scaling method. <br> <br> ![efficientNet](Day11_To_20/day11_efficientNet.png) <br> <br>
