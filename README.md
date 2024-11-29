@@ -20,6 +20,7 @@ ___
 |----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **1.**   | [**Learning representations by back-propagating errors**](https://www.nature.com/articles/323533a0)                                                                          |
 | **2.**   | [**ImageNet Classification with Deep Convolutional Neural Networks**](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) |
+| **3.**   | [**You Only Look Once: Unified, Real-Time Object Detection**](https://arxiv.org/abs/1506.02640)                                                                              |
 
 
 
@@ -223,3 +224,23 @@ spatial information, followed by a **pointwise convolution** to combine these ch
     <br> <br> ![depthwiseSeparableConvolution](Day11_To_20/day11_depthwiseSeparableConvolution.png) <br> <br> ![MobileNet](Day11_To_20/day11_mobileNet.png) <br> <br>
 - **EfficientNet :** It is a family of convolutional neural networks that achieves high accuracy and efficiency by uniformly scaling 
 network depth, width, and resolution using a compound scaling method. <br> <br> ![efficientNet](Day11_To_20/day11_efficientNet.png) <br> <br>
+
+___
+
+## Day 12
+
+I completed the **Convolutional Neural Networks (CNN)** course from the **Deep Learning Specialization**. The remaining 
+contents were about **YOLO**, **U-Net**, **Face Verification & Recognition** and **Neural Style Transfer**.
+<br> <br>
+
+Sharing some slide snippets from the course : <br> <br>
+
+ - ![YOLO](Day11_To_20/day12_YOLO.png) <br> <br>
+ - ![UNet](Day11_To_20/day12_Unet.png) <br> <br>
+ - ![faceRec](Day11_To_20/day12_faceRec.png) <br> <br>
+ - ![siameseNet](Day11_To_20/day12_siameseNet.png) <br> <br>
+ - ![neuralStyleTransfer](Day11_To_20/da12_neuralStyleTransfer.png) <br> <br>
+
+Additional to these, I also read the research paper : [**You Only Look Once: Unified, Real-Time Object Detection**](https://arxiv.org/abs/1506.02640)
+
+___
