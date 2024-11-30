@@ -244,3 +244,21 @@ Sharing some slide snippets from the course : <br> <br>
 Additional to these, I also read the research paper : [**You Only Look Once: Unified, Real-Time Object Detection**](https://arxiv.org/abs/1506.02640)
 
 ___
+
+## Day 13
+
+Today I started the next course from the **Deep Learning Specialization** and that is **Sequence Models.** Today I just got
+introduced with the **Sequence Models**, **Notations** and **Forward Propagation in RNN (Recurrent Neural Networks)**. 
+<br> <br>
+Putting my understanding and snaps from course notes as follows : <br> <br>
+
+- **Sequence Models :** Sequence models are machine learning models designed to process sequential data, such as time series,
+text, or audio, by capturing dependencies between elements across time or position. <br> <br>
+   ![sequenceDataExamples](Day11_To_20/day13_sequenceData.png) <br> <br>
+- **Recurrent Neural Networks :** Recurrent Neural Networks (RNNs) are a type of neural network made for handling sequences 
+of data, like sentences or time series, by remembering information from earlier steps as they process the sequence. They are 
+good at tasks like predicting the next word in a sentence but can struggle with remembering things over long sequences. <br> <br>
+    ![forwardPropInRNN](Day11_To_20/day13_forPropRNN.png) <br> <br> ![backprop](Day11_To_20/day13_backprop.png) <br> <br>
+
+
+___
