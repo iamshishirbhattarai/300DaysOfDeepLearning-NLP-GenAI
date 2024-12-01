@@ -262,3 +262,43 @@ good at tasks like predicting the next word in a sentence but can struggle with 
 
 
 ___
+
+## Day 14
+
+Learnt about **Different Types of RNN**, **Language Modeling with RNN** and **Vanishing Gradients With RNN**. <br> <br>
+
+Putting my understanding and snaps from course notes as follows : <br> <br>
+
+- **RNN Types :** Here are the types of RNNs based on input-output relationships:  
+
+  1. **One-to-One:**  
+     - Fixed input and output.  
+     - Example: Image classification.  
+
+  2. **One-to-Many:**  
+     - Single input with a sequence output.  
+     - Example: Image captioning.  
+
+  3. **Many-to-One:**  
+     - Sequence input with a single output.  
+     - Example: Sentiment analysis.  
+
+  4. **Many-to-Many (Same Length):**  
+     - Sequence input and output of the same length.  
+     - Example: Video classification frame-by-frame.  
+
+  5. **Many-to-Many (Different Length):**  
+     - Sequence input and output of different lengths.  
+     - Example: Machine translation.  
+  <br> 
+
+  ![RNNTypes](Day11_To_20/day14_RNNTypes.png) <br> <br>
+
+
+- **Language Modeling With RNN :** Language modeling with RNN involves predicting the next word in a sequence by learning
+the conditional probability of words based on the context of preceding words in the text. <br> <br> ![LanguageModel](Day11_To_20/day14_LanguageModeling.png) <br> <br>
+- **Vanishing Gradients With RNN :** The vanishing gradient problem in RNNs occurs when gradients diminish during backpropagation
+through time, hindering learning in long sequences, and is addressed by using architectures like **LSTMs** or **GRUs** with gating mechanisms to preserve long-term dependencies.
+<br> <br> ![Vanishing Gradients](Day11_To_20/day14_vanishingGradientsRNN.png) <br> <br>
+
+___
