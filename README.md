@@ -302,3 +302,17 @@ through time, hindering learning in long sequences, and is addressed by using ar
 <br> <br> ![Vanishing Gradients](Day11_To_20/day14_vanishingGradientsRNN.png) <br> <br>
 
 ___
+
+## Day 15
+
+Read about **GRU** and **LSTM**. Putting my understanding with course slide snaps as follows : <br> <br>
+
+- **GRU** : **A GRU (Gated Recurrent Unit)** is a type of neural network designed to process sequential data by using gates 
+to control what information is kept or discarded over time. It helps capture patterns in data like text, speech, or time series by
+efficiently managing long-term dependencies. <br> <br> ![GRU](Day11_To_20/day15_GRU.png) <br> <br>
+- **LSTM** : **An LSTM (Long Short-Term Memory)** is a type of recurrent neural network that processes sequential data by maintaining
+a cell state and using gates to control what information to keep, update, or forget. Unlike a GRU, which combines some gating 
+functions, an LSTM has separate forget and input gates along with a cell state, allowing it to potentially handle more 
+complex dependencies at the cost of increased computational complexity. <br> <br> ![LSTM](Day11_To_20/day15_LSTM.png) <br> <br>
+
+___
