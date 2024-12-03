@@ -316,3 +316,21 @@ functions, an LSTM has separate forget and input gates along with a cell state, 
 complex dependencies at the cost of increased computational complexity. <br> <br> ![LSTM](Day11_To_20/day15_LSTM.png) <br> <br>
 
 ___
+
+## Day 16
+
+Learnt about **Bidirectional-RNN(BRNN)** and **Deep RNN**. 
+<br> <br>
+- **Bidirectional RNN :** A Bidirectional Recurrent Neural Network (BRNN) is an RNN architecture that processes data in
+both forward and backward directions, allowing the model to capture information from both past and future contexts for each time step.
+<br> <br> ![BRNN](Day11_To_20/day16_bidirectionalRNN.png) <br> <br>
+- **Deep RNN :** A Deep Recurrent Neural Network (Deep RNN) is a type of RNN that employs multiple stacked layers of recurrent
+cells, allowing it to capture more abstract and complex patterns in sequential data compared to a standard, single-layer RNN.
+ <br> <br> ![DeepRNN](Day11_To_20/day16_deepRNN.png) <br> <br>
+
+Additional to this, I became familiar with **Tensorflow** and with the help of documentation I trained a s**imple neural network**
+and also a **convolutional neural network**. You may visit the notebook : <br> <br>
+1. [**Simple Neural Network's Notebook**](Day11_To_20/Neural_Networks_TensorFlow.ipynb) <br> <br>
+2. [**Simple CNN Model**](Day11_To_20/CNN_Tensorflow.ipynb)
+
+___
