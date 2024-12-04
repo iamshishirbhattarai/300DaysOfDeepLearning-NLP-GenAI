@@ -334,3 +334,20 @@ and also a **convolutional neural network**. You may visit the notebook : <br> <
 2. [**Simple CNN Model**](Day11_To_20/CNN_Tensorflow.ipynb)
 
 ___
+
+## Day 17
+
+Got Introduced with **Word Embeddings**.
+
+
+- **Word Embeddings :** **Word embeddings** are numerical vector representations of words that capture their meanings, relationships, 
+and contexts in a continuous vector space. They enable NLP models to understand semantic similarities, placing similar words closer together, e.g., *king* and *queen*.
+<br> <br> ![wordEmbeddings](Day11_To_20/day17_wordEmbeddings.png) <br> <br>
+  **Word embeddings**, a type of **transfer learning**, are pre-trained vector representations of words that capture their meanings and relationships,
+enabling efficient handling of textual data in downstream tasks. <br> <br> ![transferLearning](Day11_To_20/day17_transferLearningAndWordEmbeddings.png) <br> <br>
+  Word embeddings capture **analogies** as a **property** by encoding relationships such that vector arithmetic reflects semantic connections, 
+e.g., king - man + woman ≈ queen. <br> <br> ![analogies](Day11_To_20/day17_analogies.png) <br> <br>
+
+- **Embedding Matrix** is a learnable lookup table where each row corresponds to the vector representation of a word in a vocabulary, used to map words to embeddings in NLP models.
+
+___
