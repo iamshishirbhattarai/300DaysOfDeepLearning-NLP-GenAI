@@ -351,3 +351,19 @@ e.g., king - man + woman ≈ queen. <br> <br> ![analogies](Day11_To_20/day17_ana
 - **Embedding Matrix** is a learnable lookup table where each row corresponds to the vector representation of a word in a vocabulary, used to map words to embeddings in NLP models.
 
 ___
+
+## Day 18
+
+Today I went further to the **Word Embeddings** learning about **Word2Vec**, **GloVe** and **Sentiment Classification**.
+Highlight of the day was **Sentiment Classification**. So, discussing only it below : <br> <br>
+
+- **Simple Sentiment Classification** is the process of analyzing and categorizing text data to determine the sentiment or 
+emotional tone, such as positive, negative, or neutral. <br> <br> ![SentimentClassification](Day11_To_20/day18_sentimentalClassification.png) 
+- **Simple Sentiment Classification Model :** <br> <br> ![SimpleModel](Day11_To_20/day18_simpleSentimentalModel.png) <br> <br>
+    But this model may predict the sentence like **Completely lacking in good taste ....** kind of sentence as positive sentiment as it takes 
+average of the words present. So, to solve it **RNN** is used : <br> <br> ![RNN](Day11_To_20/day18_RNNSentimentalModel.png) <br> <br>
+- **Debiasing in Word Embeddings :** It involves modifying vector representations of words to reduce or remove biases related
+to gender, ethnicity, or other sensitive attributes while preserving their semantic relationships. <br> <br> ![biases](Day11_To_20/day18_biases.png) <br> <br>
+    ![Debiasing](Day11_To_20/day18_debiasing.png)
+
+___
