@@ -367,3 +367,18 @@ to gender, ethnicity, or other sensitive attributes while preserving their seman
     ![Debiasing](Day11_To_20/day18_debiasing.png)
 
 ___
+
+## Day 19
+
+Read about **Sequence to Sequence Models today.**
+<br> <br>
+- **Sequence to Sequence Models :** It transform an input sequence into an output sequence using an encoder to encode the input and a decoder 
+to generate the output, making them suitable for tasks like translation and summarization.
+ <br> <br> ![Seq2SeqModel](Day11_To_20/day19_seq2seqModel.webp)
+  <br> <br>
+
+- **Beam Search :** **Beam search** is a heuristic search algorithm that explores multiple possible sequences simultaneously, keeping only the top
+_B_ (beam width) most promising candidates at each step, making it efficient for tasks like machine translation and text generation. <br> <br>
+    ![BeamSearch](Day11_To_20/day19_beamSearch.png) <br> <br>
+
+___
