@@ -382,3 +382,17 @@ _B_ (beam width) most promising candidates at each step, making it efficient for
     ![BeamSearch](Day11_To_20/day19_beamSearch.png) <br> <br>
 
 ___
+
+## Day 20
+
+Read about **Error Analysis On Beam Search** and **Attention Model**
+<br>  
+- **Error Analysis On Beam Search** : <br> <br> ![ErrorAnalysisOnBeamSearch](Day11_To_20/day20_errorAnalysisBeamSearch.png) <br> <br>
+- **Attention Model** : It is a mechanism in deep learning that enables a network to focus on specific parts of the input when making predictions, 
+mimicking human attention. It assigns varying weights to different input elements, enhancing the model's ability to handle tasks like language 
+translation, image captioning, and sequence-to-sequence problems effectively. <br> <br> 
+    ![attentionModel](Day11_To_20/day20_attentionModel.png) <br> <br> 
+- **Attention Model For Speech Recognition :** <br> <br> ![SpeechRecognition](Day11_To_20/day20_speechRecognition.webp) <br> <br>
+- **Trigger Word Detection :** <br> <br> ![TriggerWord](Day11_To_20/day20_triggerWordDetection.png) 
+
+___
