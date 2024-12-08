@@ -396,3 +396,17 @@ translation, image captioning, and sequence-to-sequence problems effectively. <b
 - **Trigger Word Detection :** <br> <br> ![TriggerWord](Day11_To_20/day20_triggerWordDetection.png) 
 
 ___
+
+##Day 21
+
+Got the Transformer Intuition through **Self-Attention** and **Multi-head Attention**.
+<br> <Br>
+- **Self-Attention :** **Self-attention** in transformers allows each word (or token) in a sequence to focus on other words in the same
+sequence to capture contextual relationships, regardless of their distance. It computes a weighted representation of the sequence by 
+assigning importance scores (attention weights) based on the relevance between tokens, enabling the model to understand the meaning of a word in context. <br> <br>
+ ![SelfAttention](Day21_To_30/day21_selfAttention.png) <br> <br>
+- **Multi-Head Attention :** **Multi-head attention** is an extension of self-attention that uses multiple parallel attention mechanisms (heads) 
+to capture different aspects of relationships between tokens in a sequence. Each head independently computes self-attention, and their outputs are 
+concatenated and transformed to enhance the model's ability to learn complex, diverse patterns in the data. <br> <br> ![MultiHeadAttention](Day21_To_30/day21_multiHeadAttention.png) 
+
+___
