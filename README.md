@@ -9,7 +9,7 @@ ___
 | **S.N.** | **Books and Lessons (Resources)**                                                                                         | **Status** |
 |----------|---------------------------------------------------------------------------------------------------------------------------|------------| 
 | **1.**   | [**Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Part-II)**](https://github.com/ageron/handson-ml3) | ⏳          |
-| **2.**   | [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning)                                | ⏳          |
+| **2.**   | [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning)                                | ✅          |
 | **3.**   | [**NLP Specialization**](https://www.coursera.org/specializations/natural-language-processing)                            | ⏳          |  
 | **4.**   | [**LLM-Course Repo**](https://github.com/mlabonne/llm-course/tree/main)                                                   | ⏳          |
 
@@ -397,7 +397,7 @@ translation, image captioning, and sequence-to-sequence problems effectively. <b
 
 ___
 
-##Day 21
+## Day 21
 
 Got the Transformer Intuition through **Self-Attention** and **Multi-head Attention**.
 <br> <Br>
@@ -408,5 +408,15 @@ assigning importance scores (attention weights) based on the relevance between t
 - **Multi-Head Attention :** **Multi-head attention** is an extension of self-attention that uses multiple parallel attention mechanisms (heads) 
 to capture different aspects of relationships between tokens in a sequence. Each head independently computes self-attention, and their outputs are 
 concatenated and transformed to enhance the model's ability to learn complex, diverse patterns in the data. <br> <br> ![MultiHeadAttention](Day21_To_30/day21_multiHeadAttention.png) 
+
+___
+
+## Day 22
+Completed the **Deep Learning Specialization**. The rest of the portion was about **Transformer**, 
+<br> <br>
+- **Transformer :** **Transformers** are a deep learning architecture designed to process sequential data by leveraging the self-attention mechanism, 
+which enables the model to weigh the importance of different input tokens relative to one another, regardless of their position. 
+This architecture has revolutionized natural language processing (NLP) and beyond, powering models like GPT and BERT due to its efficiency in parallel 
+processing and ability to capture long-range dependencies. <br> <br> ![Tranformer](Day21_To_30/day22_Transformer.png) <br> <br>
 
 ___
