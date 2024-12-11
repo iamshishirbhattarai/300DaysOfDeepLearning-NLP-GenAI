@@ -420,3 +420,14 @@ This architecture has revolutionized natural language processing (NLP) and beyon
 processing and ability to capture long-range dependencies. <br> <br> ![Tranformer](Day21_To_30/day22_Transformer.png) <br> <br>
 
 ___
+
+## Day 23
+
+Started working on a project [**Brain Tumor Detection System**](https://github.com/iamshishirbhattarai/Machine-Learning/tree/main/Brain%20Tumor%20Detection%20System). 
+Today I just loaded the dataset, visualized and performed data augmentation. <br> <br>
+- **Code Snippet :** <br> <br> ![codesnippet](Day21_To_30/day23_codeSnippet.png)  <br> <br>
+- **Categories Visualization :** <br> <br> ![categores](Day21_To_30/day23_categories.png) <br> <br>
+
+You may visit the ongoing notebook through the link above.
+
+___
