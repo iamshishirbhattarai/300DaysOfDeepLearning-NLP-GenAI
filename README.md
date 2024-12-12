@@ -26,9 +26,9 @@ ___
 
 ## Projects
 
-| **S.N.** | **Project Title** | **Status** |
-|----------|-------------------|------------|
-| 1.       |                   |            |
+| **S.N.** | **Project Title**                                                                                                                        |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.       | [**Brain Tumor Detection System**](https://github.com/iamshishirbhattarai/Machine-Learning/tree/main/Brain%20Tumor%20Detection%20System) | 
 
 ___
 
@@ -425,9 +425,21 @@ ___
 
 Started working on a project [**Brain Tumor Detection System**](https://github.com/iamshishirbhattarai/Machine-Learning/tree/main/Brain%20Tumor%20Detection%20System). 
 Today I just loaded the dataset, visualized and performed data augmentation. <br> <br>
-- **Code Snippet :** <br> <br> ![codesnippet](Day21_To_30/day23_codeSnippet.png)  <br> <br>
+- **Code Snippet :** <br> <br> ![codesnippet](Day21_To_30/day23_codeSnippet.png) <br> <br>  Sorry for using // instead of # for comments. <br> <br>
 - **Categories Visualization :** <br> <br> ![categores](Day21_To_30/day23_categories.png) <br> <br>
 
 You may visit the ongoing notebook through the link above.
 
+___
+
+## Day 24
+
+Well I trained the model and obtained the **train accuracy** of **97.5%** and **test accuracy** of **94.1%**. It's not much bad, but the
+system obtained only **80.9%** which might be low. **Lower recall** in a brain tumor detection system means more tumors may go undetected,
+potentially delaying treatment and leading to severe or fatal outcomes. But let's see what I can do in further days to improve this.
+
+- **Snippet :** <br> <br> ![ModelSnippet](Day21_To_30/day24_modelSnippet.png) <br> <br>
+
+ Visit the full project at : [**Brain Tumor Detection System**](https://github.com/iamshishirbhattarai/Machine-Learning/tree/main/Brain%20Tumor%20Detection%20System).
+ 
 ___
