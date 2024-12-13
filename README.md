@@ -443,3 +443,12 @@ potentially delaying treatment and leading to severe or fatal outcomes. But let'
  Visit the full project at : [**Brain Tumor Detection System**](https://github.com/iamshishirbhattarai/Machine-Learning/tree/main/Brain%20Tumor%20Detection%20System).
  
 ___
+
+## Day 25
+
+Tried implementing **Transfer Learning**. For this, I took a pretrained **MobileNetV2** on **ImageNet**  to classify **CIFAR-10** images.
+
+- ![TransferLearning](Day21_To_30/day25_transferLearningCode.png) <br> <br>
+ 
+
+___
