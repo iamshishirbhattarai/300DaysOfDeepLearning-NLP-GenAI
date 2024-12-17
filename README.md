@@ -452,3 +452,13 @@ Tried implementing **Transfer Learning**. For this, I took a pretrained **Mobile
  
 
 ___
+
+## Day 26
+
+Started a new project called [**Pneumonia Prediction Using CNN**](https://github.com/iamshishirbhattarai/Pneumonia-Prediction-Using-CNN). Today just simply loaded the dataset, preprocessed
+and roughly created the model. Have to make improvements, which I will see in coming days. <br> <br>
+
+- **Normal Vs Pneumonia Image :** <br> <br>![NormalVsPneumonia](Day21_To_30/day26_Normal_Vs_Pneumonia.png) <br> <br>
+- **Model Definition :** <br> <br> ![Model](Day21_To_30/day26_pneumoniaModel.png)
+
+___
