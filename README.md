@@ -470,5 +470,7 @@ issues or lacking, which I might figure out later. For now, ending up the projec
 - ![PneumoniaMOdelRevised](Day21_To_30/day27_PnemoniaModelRevised.png) <br> <br>
 
 Visit the Porject : [**Pneumonia Prediction Using CNN**](https://github.com/iamshishirbhattarai/Pneumonia-Prediction-Using-CNN)
+
+
 ___
 
