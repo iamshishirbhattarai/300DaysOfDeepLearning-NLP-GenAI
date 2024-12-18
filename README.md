@@ -462,3 +462,13 @@ and roughly created the model. Have to make improvements, which I will see in co
 - **Model Definition :** <br> <br> ![Model](Day21_To_30/day26_pneumoniaModel.png)
 
 ___
+
+## Day 27
+
+Tried improving the project that I started yesterday. But, couldn't do though I tried it the whole day. There might be some
+issues or lacking, which I might figure out later. For now, ending up the project. <br> <br>
+- ![PneumoniaMOdelRevised](Day21_To_30/day27_PnemoniaModelRevised.png) <br> <br>
+
+Visit the Porject : [**Pneumonia Prediction Using CNN**](https://github.com/iamshishirbhattarai/Pneumonia-Prediction-Using-CNN)
+___
+
