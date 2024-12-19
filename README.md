@@ -474,3 +474,15 @@ Visit the Porject : [**Pneumonia Prediction Using CNN**](https://github.com/iams
 
 ___
 
+## Day 28
+
+Today had some fun with **YOLO**. Used **YOLOv8** from **ultralytics**. During this also revisited the 
+[**You Only Look Once: Unified, Real-Time Object Detection**](https://arxiv.org/abs/1506.02640) paper.
+
+- ![code](Day21_To_30/day28_yoloBeginner.png) <br> <br>
+- **Output :** <br> <br> ![objectDetection](Day21_To_30/day28_objectDetection.png) <br> <br>
+
+You may visit the notebook : [**YOLO Beginner Notebook**](Day21_To_30/day28_YOLO_Beginner.ipynb)
+
+___
+
