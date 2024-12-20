@@ -486,3 +486,22 @@ You may visit the notebook : [**YOLO Beginner Notebook**](Day21_To_30/day28_YOLO
 
 ___
 
+## Day 29 
+
+Tried to train the **YOLOv8** with custom dataset for the whole day but got problems which I will figure out tomorrow.
+Other than that, started **NLP Specialization** from **Coursera**. Today, I learnt about **Vocabulary**, **Feature Extraction**,
+**Negative And Positive Frequencies** and **Preprocessing**. 
+
+- **Vocabulary and Feature Extraction :** <br> <br> ![Vocabulary](Day21_To_30/day29_Vocabulary.png) <br> <br> ![FeatureExtraction](Day21_To_30/day29_featureExtraction.png) <br> <br>
+- **Positive and Negative Frequencies :** <br> <br> Since in **Sparse Representation** model has to learn large number of parameters 
+resulting **large training time** and **large prediction time**, the **Negative and Positive Frequencies** comes to rescue. How? Might be clarified
+with the snapshot from the course below : <br> <br> ![PosNegFreq](Day21_To_30/day29_posNegFreq.png) <br> <br>
+- **Pre-Processing :** Involves techniques like eliminating **stop words, punctuation, handles, URLs, Stemming and Lowercasing.** <br> <br>
+      1. **Stop words**: Common words (e.g., "the," "and") removed in text processing to focus on meaningful terms.  
+      2. **Punctuation**: Symbols (e.g., ".", ",") often removed during preprocessing to simplify text analysis.  
+      3. **Handles**: Usernames in social media (e.g., "@user") excluded to reduce noise.  
+      4. **URLs**: Web links stripped out for clean text data.  
+      5. **Stemming**: Reduces words to their base form (e.g., "running" → "run"). <br> 
+      6. **Lowercasing**: Converts all text to lowercase to ensure uniformity.
+
+___
