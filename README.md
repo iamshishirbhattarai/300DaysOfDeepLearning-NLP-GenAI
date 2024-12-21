@@ -505,3 +505,16 @@ with the snapshot from the course below : <br> <br> ![PosNegFreq](Day21_To_30/da
       6. **Lowercasing**: Converts all text to lowercase to ensure uniformity.
 
 ___
+
+## Day 30
+
+Completed the first week from the first course of **NLP Specialization**. THe rest of the stuff was about **Logistic Regression**
+to classify whether the given tweet is positive or negative. <br> <br>
+
+- ![LR](Day21_To_30/day30_LR.png) <br> <br> ![LRTraining](Day21_To_30/day30_LRTraining.png) <br> <br>
+
+ALso tried fine tuning the **yolov8** with [**Road Detection**](https://www.kaggle.com/datasets/princekhunt19/road-detection-imgs-and-labels/data) dataset. 
+Though, it's not much better, but it at least was error free today. Will improve it more tomorrow. Some output from the model is as follows : <br> <br> 
+- ![Output1](Day21_To_30/day30_output1.png) <br> ![Output2](Day21_To_30/day30_output2.png) <br> ![Output3](Day21_To_30/day30_output3.png) 
+
+___
