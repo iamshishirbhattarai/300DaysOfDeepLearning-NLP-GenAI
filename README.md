@@ -29,6 +29,8 @@ ___
 | **S.N.** | **Project Title**                                                                                                                        |
 |----------|------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.       | [**Brain Tumor Detection System**](https://github.com/iamshishirbhattarai/Machine-Learning/tree/main/Brain%20Tumor%20Detection%20System) | 
+| 2.       | [**Pneumonia Prediction Using CNN**](https://github.com/iamshishirbhattarai/Pneumonia-Prediction-Using-CNN)                              |
+| 3.       | [**Fine Tuning yolov8**](https://github.com/iamshishirbhattarai/Fine-Tuning-YOLOV8)                                                      | 
 
 ___
 
@@ -516,5 +518,20 @@ to classify whether the given tweet is positive or negative. <br> <br>
 ALso tried fine tuning the **yolov8** with [**Road Detection**](https://www.kaggle.com/datasets/princekhunt19/road-detection-imgs-and-labels/data) dataset. 
 Though, it's not much better, but it at least was error free today. Will improve it more tomorrow. Some output from the model is as follows : <br> <br> 
 - ![Output1](Day21_To_30/day30_output1.png) <br> ![Output2](Day21_To_30/day30_output2.png) <br> ![Output3](Day21_To_30/day30_output3.png) 
+
+___
+
+## Day 31
+
+I prepared the final notebook for fine tuning of **Yolov8** which you may visit here : [**Fine Tuning yolov8**](https://github.com/iamshishirbhattarai/Fine-Tuning-YOLOV8) <br> <br>
+
+On the other side, today I learnt about **Conditional Probability**, **Baye's Rule** and **Naive Bayes**. <br> <br>
+
+- **Conditional Probability :** Conditional probability is the likelihood of an event occurring given that another event has already occurred. <br> <br> 
+  ![ConditionalProbability](Day31_To_40/day31_conditionalProbability.png) <br> <br>
+- **Baye's Rule :** It describes how to update the probability of an event based on new evidence, incorporating prior knowledge and the likelihood of the evidence. <br> <br>
+   ![BayesRule](Day31_To_40/day31_bayesRule.png) <br> <br>
+- **Naive Bayes :** Naive Bayes is a probabilistic machine learning algorithm based on Bayes' theorem, assuming feature independence, commonly used for classification tasks like spam detection and sentiment analysis.
+   <br> <br> ![NaiveBayes](Day31_To_40/day31_naiveBayes.png) <br> <br>
 
 ___
