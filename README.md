@@ -533,5 +533,19 @@ On the other side, today I learnt about **Conditional Probability**, **Baye's Ru
    ![BayesRule](Day31_To_40/day31_bayesRule.png) <br> <br>
 - **Naive Bayes :** Naive Bayes is a probabilistic machine learning algorithm based on Bayes' theorem, assuming feature independence, commonly used for classification tasks like spam detection and sentiment analysis.
    <br> <br> ![NaiveBayes](Day31_To_40/day31_naiveBayes.png) <br> <br>
+___
+
+## Day 32
+
+Learnt about **Laplacian Smoothing**, **Log Likelihood**, **Training and Testing Naive Bayes**, **Applications** and **Error Analysis**
+<br> <br>
+
+- **Laplacian Smoothing :** Laplacian smoothing is a technique used in probability and statistics to handle zero probabilities by adding a 
+small constant (usually 1) to each count, ensuring that no event has a zero probability. <br> <br> ![LaplacianSmoothing](Day31_To_40/day32_laplaceSmoothing.png) <br> <br>
+- **Log Likelihood :** It is the logarithm of the likelihood function which is done to simplify computations, avoid numerical underflow when multiplying many small
+probabilities, and to make optimization easier when fitting the model to data. <br> <br> ![LogLikelihood](Day31_To_40/day32_logLikelihood.png) <br> <br>
+- **Training Naive Bayes :** <br> <br> ![TrainingNaive](Day31_To_40/day32_trainingNaiveBayes.png) <br> <br>
+- **Applications of Naive Bayes :** <br> <br> 1. Sentiment Analysis <br> 2. Author Identification <br> 3. Information Retrieval <br> 4. Word disambiguation, etc.
+<br> <br>
 
 ___
