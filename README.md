@@ -549,3 +549,21 @@ probabilities, and to make optimization easier when fitting the model to data. <
 <br> <br>
 
 ___
+
+## Day 33
+
+Learnt about **Vector Space**, **Euclidean Distance** and **Cosine Similarity** from **NLP Specialization**. <br> <br>
+
+- **Vector Space :** 
+A **vector space** is a way to represent data mathematically, where words or documents are treated as points or vectors in 
+a multi-dimensional space, making it easier to analyze their relationships. In a **word-by-word approach**, a co-occurrence
+matrix is created, where each word is compared to every other word to capture their contextual relationships. In contrast,
+a **word-by-docs** matrix links words to documents, showing how frequently a word appears in each document to determine its relevance. 
+Together, these methods help in tasks like understanding word associations or analyzing document similarity.
+<br> <br>
+- **Euclidean Distance :** It is the straight-line distance between two points in a multi-dimensional space, calculated
+as the square root of the sum of squared differences between corresponding coordinates. <br> <br> ![EuclideanDistance](Day31_To_40/day33_EuclideanDistance.png)<br><br>
+- **Cosine Similarity :** It measures the angle between two vectors in a multi-dimensional space, indicating how similar they are based on their 
+direction, regardless of their magnitude. <br> <br> ![CosineSimilarity](Day31_To_40/day33_CosineSimilarity.png)
+
+___
