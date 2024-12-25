@@ -567,3 +567,16 @@ as the square root of the sum of squared differences between corresponding coord
 direction, regardless of their magnitude. <br> <br> ![CosineSimilarity](Day31_To_40/day33_CosineSimilarity.png)
 
 ___
+
+## Day 34
+
+Learnt about **Manipulating Vector Space** and **PCA Algorithm.**
+
+- **Manipulating Vector Space**: Below demonstrates an example of how vector space can be used to find capital of the city
+   when one of them is provided. <br> <br> ![ManipulatingVector](Day31_To_40/day34_manipulatingVector.png) <br> <br>
+- **PCA Algorithm :** It is a dimensionality reduction technique that identifies the principal components
+of a dataset by calculating the eigenvectors and eigenvalues of its covariance matrix. The eigenvectors represent the 
+directions of maximum variance (principal components), while the **eigenvalues** quantify the amount of variance captured by
+each corresponding **eigenvector**. <br> <br> ![PCA1](Day31_To_40/day34_PCA1.png) <br> ![PCA2](Day31_To_40/day32_PCA2.png) <br> <br>
+
+___
