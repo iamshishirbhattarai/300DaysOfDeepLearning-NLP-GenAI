@@ -580,3 +580,21 @@ directions of maximum variance (principal components), while the **eigenvalues**
 each corresponding **eigenvector**. <br> <br> ![PCA1](Day31_To_40/day34_PCA1.png) <br> ![PCA2](Day31_To_40/day32_PCA2.png) <br> <br>
 
 ___
+
+## Day 35
+
+Completed the first course of **NLP Specialization** : **Natural Language Processing with Classification and Vector Spaces**. 
+The remaining portion was about **K-nearest neighbors**, **Hash Tables and Functions**, **Locality Sensitive Hashing**, etc.
+
+- **K-nearest Neighbors :** It is a machine learning algorithm that classifies a data point based on the majority class of its K
+closest points in the feature space.  <br> <Br>
+- **Hash Table :** <br> <br> ![hashValue](Day31_To_40/day35_hashValue.png) <Br> <br>
+- **Locality Sensitive Hashing :** It is a technique used to perform approximate nearest neighbor searches by hashing similar 
+data points into the same bucket with high probability, reducing the search space. <br> <br> ![LSH](Day31_To_40/day35_hashValue.png) <br> <Br>
+**Multiple planes** are used in locality-sensitive hashing (LSH) to partition the data into distinct subspaces. Each plane is essentially a 
+hyperplane that divides the data into two regions, which helps in efficiently hashing and indexing high-dimensional vectors.  <br> <Br> ![multiplePlanes](Day31_To_40/day35_multiplePlanes.png) <br> <br>
+- **Approximate Nearest Neighbors :** It is a technique used to quickly find vectors that are close to a given query vector
+in high-dimensional spaces, by using approximate methods like locality-sensitive hashing (LSH) to reduce computation time 
+and memory usage, while sacrificing some accuracy.
+
+___
