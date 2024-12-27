@@ -583,7 +583,7 @@ ___
 
 ## Day 35
 
-Completed the first course of **NLP Specialization** : **Natural Language Processing with Classification and Vector Spaces**. 
+Completed the first course of **NLP Specialization** : **S**. 
 The remaining portion was about **K-nearest neighbors**, **Hash Tables and Functions**, **Locality Sensitive Hashing**, etc.
 
 - **K-nearest Neighbors :** It is a machine learning algorithm that classifies a data point based on the majority class of its K
@@ -596,5 +596,16 @@ hyperplane that divides the data into two regions, which helps in efficiently ha
 - **Approximate Nearest Neighbors :** It is a technique used to quickly find vectors that are close to a given query vector
 in high-dimensional spaces, by using approximate methods like locality-sensitive hashing (LSH) to reduce computation time 
 and memory usage, while sacrificing some accuracy.
+
+___
+
+## Day 36
+
+Started the new course withing **NLP Specialization** : **Natural Language Processing with Probabilistic Models**. 
+Today Just learnt about **AutoCorrect** and **Building The Model**.
+
+- **Autocorrect :** It automatically adjusts misspelled or mistyped words to their correct form while typing;
+for example, typing "definately" might be corrected to "definitely." <br> <br> ![autoCorrect](Day31_To_40/day36_autoCorrect.png) <br> <br>
+- **Building The Model :** Autocorrect involves the following process to build the model: <br> <br> ![BuildingModel](Day31_To_40/day36_buildingModel.png) <br> <Br>
 
 ___
