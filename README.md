@@ -609,3 +609,13 @@ for example, typing "definately" might be corrected to "definitely." <br> <br> !
 - **Building The Model :** Autocorrect involves the following process to build the model: <br> <br> ![BuildingModel](Day31_To_40/day36_buildingModel.png) <br> <Br>
 
 ___
+
+## Day 37
+
+Learnt about **Minimum Edit Distance Algorithm.** <br> <br>
+- The **Minimum Edit Distance Algorithm** (or Levenshtein Distance) calculates the smallest number of operations
+(insertions, deletions, and replacements) required to convert one string into another. It uses dynamic programming to build a matrix,
+where each cell represents the edit distance for substrings, enabling an efficient bottom-up computation of the result.
+ <br> <br> ![MinimulEditDistance](Day31_To_40/day37_MED1.png) <br> <br> ![Minimum Edit Distance](Day31_To_40/day37_MED2.png)
+
+___
