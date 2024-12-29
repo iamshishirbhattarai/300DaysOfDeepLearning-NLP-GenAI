@@ -619,3 +619,18 @@ where each cell represents the edit distance for substrings, enabling an efficie
  <br> <br> ![MinimulEditDistance](Day31_To_40/day37_MED1.png) <br> <br> ![Minimum Edit Distance](Day31_To_40/day37_MED2.png)
 
 ___
+
+## Day 38
+
+Learnt about **POS tagging** and **Markov Chains**.
+
+- **POS Tagging :** **Part Of Speech Tagging** is the process of assigning a part of speech (e.g., noun, verb, adjective) 
+to each word in a sentence based on its context and definition. It is a fundamental task in natural language processing (NLP)
+that helps in syntactic and semantic analysis. Machine learning algorithms and probabilistic models, like Hidden Markov Models (HMMs), are often used for efficient tagging.
+<br> <br> ![POS](Day31_To_40/day38_POS.png) <br> <br>
+- **Markov Chain :** It is a mathematical model that describes a system transitioning between states based on certain probabilities. 
+The key property is that the probability of moving to the next state depends only on the current state (memoryless). Transition probabilities determine how likely the system moves from one state to another, and the initial state probability 
+(**π** ) specifies the probability of starting in a specific state. <br> <br> ![Transition](Day31_To_40/day38_TransitionMatrix.png) <br> <br>
+
+
+___
