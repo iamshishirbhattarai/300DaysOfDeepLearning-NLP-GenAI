@@ -634,3 +634,23 @@ The key property is that the probability of moving to the next state depends onl
 
 
 ___
+
+## Day 39
+
+Learnt the following: <br> <br>
+
+- **Hidden Markov Model :** A **Hidden Markov Model (HMM)** is a statistical model used to represent systems that have hidden states 
+influencing observable outputs, where the transitions between hidden states follow a Markov process. It is characterized by transition
+probabilities between states, emission probabilities linking hidden states to observations, and initial state probabilities. <br> <br>
+- **Transition Probabilities :** **Transition probabilities** in a Hidden Markov Model (HMM) represent the likelihood of transitioning 
+from one hidden state to another in a sequence. <br> <br> ![TransitionProbabilities](Day31_To_40/day39_TransitionProbabilities.png) <br> <br> 
+  **Populating Transition Probabilities** involves estimating the likelihood of transitioning from one hidden state to another, often using frequency 
+counts from training data or predefined probabilities. <br> <br> ![PopulatingTP](Day31_To_40/day39_populatingTransitionProbabilities.png) <br> <br>
+  **Smoothing** in the context of populating transition probabilities ensures that even rare or unseen transitions are assigned a small probability to 
+avoid zero-probability issues during model computations. <br> <br> ![smoothing](Day31_To_40/day39_smoothingTransitionProbabilities.png) <br> <br>
+- **Emission Probabilities :** **Emission probabilities** in an HMM represent the likelihood of an observed symbol being generated from a specific
+hidden state, differing from transition probabilities, which define the likelihood of moving from one hidden state to another. <br> <br> ![EmissionProbabilities](Day31_To_40/day39_emmissionProbabilities.png) <br> <br>
+    **Populating emission probabilities** involves estimating the likelihood of each observed symbol being produced by a given hidden state, often
+using frequency counts from training data and applying smoothing techniques to handle unseen observations. <br> <br> ![PopulatingEP](Day31_To_40/day39_populatingEmmissionProbabilities.png) <br> <br>
+
+---
