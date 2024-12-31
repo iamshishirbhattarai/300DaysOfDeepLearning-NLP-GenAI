@@ -654,3 +654,38 @@ hidden state, differing from transition probabilities, which define the likeliho
 using frequency counts from training data and applying smoothing techniques to handle unseen observations. <br> <br> ![PopulatingEP](Day31_To_40/day39_populatingEmmissionProbabilities.png) <br> <br>
 
 ---
+
+## Day 40
+
+Learnt about **Viterbi Algorithm**.
+
+The **Viterbi algorithm** is a dynamic programming algorithm used to find the most probable sequence of hidden states in a Hidden Markov Model (HMM), given a sequence of observed events. It is widely applied in areas such as speech recognition, bioinformatics, and natural language processing.
+
+- ![Viterbi](Day31_To_40/day40_viterbiAlgo.png)
+### Steps of the Viterbi Algorithm
+
+- ### Initialization
+
+    The algorithm begins by calculating the initial probabilities for each state based on the starting probabilities of the HMM and the likelihood of observing the first data point. These probabilities are stored as the starting values for the most likely path calculation.
+
+- ### Forward Pass
+
+    For each subsequent observation in the sequence, the algorithm computes the probability of being in each state by considering: <br> <br>
+
+  - The probabilities of all possible previous states.
+  - The transition probabilities between states.
+  - The emission probabilities of observing the data point from each state.
+    The most likely previous state for each current state is recorded to help reconstruct the optimal path later.
+
+- ### Backward Pass
+
+    After processing all observations, the algorithm traces back through the recorded states to determine the most probable sequence of hidden states. This step reconstructs the sequence that maximizes the probability of the observed data.
+
+- ### Example Use Cases
+
+  - Speech recognition: Identifying words from audio signals.
+  - Bioinformatics: Predicting gene sequences.
+  - Natural language processing: Part-of-speech tagging.
+
+The Viterbi algorithm efficiently solves problems involving HMMs by combining probabilistic reasoning and dynamic programming.
+
