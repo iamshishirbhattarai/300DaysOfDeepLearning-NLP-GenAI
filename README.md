@@ -689,3 +689,15 @@ The **Viterbi algorithm** is a dynamic programming algorithm used to find the mo
 
 The Viterbi algorithm efficiently solves problems involving HMMs by combining probabilistic reasoning and dynamic programming.
 
+___
+
+## Day 41
+
+Learnt about **NGram** and **Probabilities**.
+
+- **N-Gram** : An **n-gram** is a contiguous sequence of n items(words, characters, or tokens) from a given text or speech.
+  <br> <br> ![ngram](Day41_To_50/day41_NGram.png) <br> <br>
+- **Probabilities :** <br> <br> ![unigram](Day41_To_50/day41_uniGramProb.png) <br> ![bigram](Day41_To_50/day41_biGramProb.png) <Br> 
+  ![trigram](Day41_To_50/day41_triGramProb.png) <br> ![ngramprob](Day41_To_50/day41_nGramProb.png) <br> <br>
+
+___
