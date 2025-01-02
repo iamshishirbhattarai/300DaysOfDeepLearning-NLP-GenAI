@@ -701,3 +701,18 @@ Learnt about **NGram** and **Probabilities**.
   ![trigram](Day41_To_50/day41_triGramProb.png) <br> ![ngramprob](Day41_To_50/day41_nGramProb.png) <br> <br>
 
 ___
+
+## Day 42
+
+Learnt about **Sequence Probabilities.**
+
+- Sequence probabilities measure the likelihood of a sequence of events (e.g., words in a sentence) occurring in a specific order,
+calculated as the product of conditional probabilities of each event given its predecessors. However, exact computation becomes infeasible
+for long sequences due to the exponential growth of dependencies and the need for vast amounts of data to estimate probabilities accurately.
+To address this, **n-gram models** approximate sequence probabilities by considering only a fixed number of preceding events (n-1), 
+significantly reducing computational complexity and data requirements. While this approach simplifies computation, it assumes independence
+beyond the n-gram context, potentially missing longer-range dependencies. <br> <Br> Despite its limitations, n-gram models are foundational in natural 
+language processing and paved the way for more advanced methods like neural language models. <br> <br> ![seqProb](Day41_To_50/day42_seqProbabilities.png) <br>
+ ![seqProbShortComings](Day41_To_50/day42_seqProbShortComings.png) <br> ![SeqProbApprox](Day41_To_50/day42_seqProbApprox.png)
+
+___
