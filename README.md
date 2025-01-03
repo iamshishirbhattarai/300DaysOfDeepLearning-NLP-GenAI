@@ -716,3 +716,37 @@ language processing and paved the way for more advanced methods like neural lang
  ![seqProbShortComings](Day41_To_50/day42_seqProbShortComings.png) <br> ![SeqProbApprox](Day41_To_50/day42_seqProbApprox.png)
 
 ___
+
+## Day 43
+
+Learnt about **N-gram Models**, **Model Evaluation**, **Out Of Vocabulary** and **Smoothing**.
+<br> <br>
+- **N-gram Model :** The N-gram model predicts the probability of a word sequence based on the conditional probability of each word given its
+    n−1 preceding words. <br> <br>
+
+  **Steps and Explanations**
+
+    1. **Count Matrix** <br>
+    Records the frequency of n
+n-grams in the dataset to capture patterns.
+   2. **Probability Matrix** <br>
+   Converts n-gram frequencies into conditional probabilities by normalization.
+   3. **Language Model** <br> 
+   Uses the probability matrix to predict or evaluate the likelihood of sentences.
+   4. **Log Probability**  <br> Avoid Underflow by
+   Applying logarithms to probabilities to ensure numerical stability in computations.
+   5. **Generative Language Model** <br> 
+   Generates new text by sampling from learned 
+   n-gram probabilities. <br> <br> ![GenerativeLM](Day41_To_50/day43_generativeLanguageModel.png) <br> <br>
+
+- **Perplexity (an Evaluation Metric) :** It is a measurement of how well a probabilistic model predicts a dataset, 
+often used in language modeling, where lower values indicate better predictive performance. <br> <br> ![perplexity](Day41_To_50/day43_bigramPerplexity.png)
+  <br> ![logPerplexity](Day41_To_50/day43_logPerplexity.png) <br> <br>
+- **Out Of Vocabulary :** **Out of vocabulary (OOV)** refers to words or tokens in a dataset that are not present in a model's training vocabulary, making them unrecognizable to the model.
+    One of the way to handle is by using **< UNK >**. <br> <br> ![UNK](Day41_To_50/day43_usingUNK.png) <br> <br>
+- **Smoothing :** It is a technique used in language models to assign non-zero probabilities to unseen events, preventing them from being entirely excluded. <br> <br>
+    ![Smoothing](Day41_To_50/day43_smoothing.png) <br> <br>
+- **Backoff :** It is a strategy where the model defaults to simpler, lower-order models when higher-order n-grams are not found in the training data. <br> <br>
+    ![backoff](Day41_To_50/day43_backoff.png) <br> <Br>
+
+___
