@@ -750,3 +750,15 @@ often used in language modeling, where lower values indicate better predictive p
     ![backoff](Day41_To_50/day43_backoff.png) <br> <Br>
 
 ___
+
+## Day 44
+
+Revised about **Word Embedding**. <br> <br>
+
+-  **Word Embedding :** **Word embeddings** represent words as dense vectors in a continuous space, capturing their meaning and 
+relationships based on usage in context. This makes them far more efficient and meaningful than **integer** or **one-hot encoding**, 
+which are sparse and lack the ability to convey semantic or contextual information. <br> <br>
+- **Continuous bag-of-words :** **Continuous Bag of Words (CBOW)** predicts a target word based on the surrounding context words, using
+a sliding window approach to learn word representations. <br> <br> ![corpusToTraining](Day41_To_50/day44_corpusToTraining.png) <br> <br>
+
+___
