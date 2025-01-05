@@ -762,3 +762,17 @@ which are sparse and lack the ability to convey semantic or contextual informati
 a sliding window approach to learn word representations. <br> <br> ![corpusToTraining](Day41_To_50/day44_corpusToTraining.png) <br> <br>
 
 ___
+
+## Day 45
+
+Diving deeper into **CBOW**.
+
+- **Cleaning and Tokenization :** It involve preparing text by removing unwanted elements 
+(like punctuation, emojis, or stopwords) and splitting it into meaningful units such as words or tokens for analysis.
+ <br> <br> ![cleaningAndTokenization](Day41_To_50/day45_cleaning&Tokenization.png) <br> <br>
+- **Sliding Window :** The **sliding window** technique defines a fixed-size context window that moves across the text, using the words within the window (**context**) to predict the target word at the **center**.
+    <br> <BR> ![SLIDINGWINDOW](Day41_To_50/day45_slidingWindow.png) <br> <br>
+- **Transforming Words Into Vectors :** <br> <br> ![CenterWords](Day41_To_50/day45_centerWordsIntoVectors.png) <br> ![ContextWords](Day41_To_50/day45_contextWordIntoVectors.png) <br> <br>
+- **Architecture :** <br> <br> ![CBOWArchitecture](Day41_To_50/day45_CBOWArchitecture.png) <br> <br>
+
+___
