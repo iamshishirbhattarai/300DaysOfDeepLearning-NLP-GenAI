@@ -776,3 +776,17 @@ Diving deeper into **CBOW**.
 - **Architecture :** <br> <br> ![CBOWArchitecture](Day41_To_50/day45_CBOWArchitecture.png) <br> <br>
 
 ___
+
+## Day 46
+
+Continued **CBOW**. <br> <br>
+
+- **Dimensions on CBOW** <br> <br> ![dimensionSingle](Day41_To_50/day46_dimensionSingle.png) <br> ![DimensionBatch](Day41_To_50/day46_dimensionBatch.png) <br> <br>
+- **Training Process** <br> <br> 1. Forward Propagation <br> 2. Cost <br> 3. Backpropagation and gradient descent.
+  <br> <br>
+- **Evaluation** <br> <br>  **Intrinsic Evaluation**: CBOW can be intrinsically evaluated by measuring word similarity or analogy tasks, assessing how well the model captures semantic and syntactic relationships between words.  
+   <br> ![intrinsicEvaluation](Day41_To_50/day46_intrinsicEvaluation.png) <br> 
+  <br>  **Extrinsic Evaluation**: CBOW can be extrinsically evaluated by incorporating its embeddings into downstream tasks like text classification or sentiment analysis and measuring task-specific performance metrics.
+    <br> <br> ![ExtrinsicEvaluation](Day41_To_50/day46_extrinsicEvaluation.png) <br> <Br>
+
+___
