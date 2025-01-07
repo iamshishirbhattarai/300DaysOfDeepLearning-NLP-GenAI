@@ -790,3 +790,11 @@ Continued **CBOW**. <br> <br>
     <br> <br> ![ExtrinsicEvaluation](Day41_To_50/day46_extrinsicEvaluation.png) <br> <Br>
 
 ___
+
+## Day 47
+
+Today just did lab portion of the **CBOW** and completed the second course from **NLP Specialization**. <br> <br>
+
+- **Backpropagation in CBOW** <br> <br> ![BackProp](Day41_To_50/day47_backPropTrain.png) <br> <br>
+
+___
