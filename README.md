@@ -798,3 +798,21 @@ Today just did lab portion of the **CBOW** and completed the second course from 
 - **Backpropagation in CBOW** <br> <br> ![BackProp](Day41_To_50/day47_backPropTrain.png) <br> <br>
 
 ___
+
+## Day 48
+
+Started another course on **NLP Specialization : Natural Language Processing with Sequence Models**. Learnt about **Embedding Layer**
+, **Mean Layer** and **N-Gram VS RNN**. <br> <Br>
+
+- **Embedding Layer and Mean Layer :** An **embedding layer** takes items like words or IDs and turns them into meaningful numbers 
+(vectors) that the computer can understand, making it easier to process things like text or categories. On the other hand, a 
+**mean layer** takes a group of these numbers (vectors) and calculates their average to summarize the information. In simple terms, 
+the embedding layer creates representations, while the mean layer combines them into a single summary.
+<br> <br> ![embeddingLayer](Day41_To_50/day48_embeddingLayer.png) <br> ![MeanLayer](Day41_To_50/day48_meanLayer.png) <br> <br>
+- **N-Gram VS RNN :** **N-grams** analyze fixed-size chunks of text, capturing local patterns but failing to consider long-term dependencies
+or context beyond their window size, which limits their ability to handle complex language structures. **RNN**s, on the other hand, process 
+sequences one step at a time, maintaining a hidden state that carries information from previous inputs, enabling them to capture long-range
+dependencies and context. This ability to model sequential data dynamically makes RNNs a better choice for tasks like language modeling and 
+machine translation compared to the rigid structure of n-grams. <br> <br>
+  ![ngram](Day41_To_50/day48_ngram.png) <br> ![RNN](Day41_To_50/day48_RNN.png) <br> <Br>
+___
