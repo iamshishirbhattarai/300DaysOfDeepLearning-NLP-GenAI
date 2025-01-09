@@ -31,7 +31,7 @@ ___
 | 1.       | [**Brain Tumor Detection System**](https://github.com/iamshishirbhattarai/Machine-Learning/tree/main/Brain%20Tumor%20Detection%20System) | 
 | 2.       | [**Pneumonia Prediction Using CNN**](https://github.com/iamshishirbhattarai/Pneumonia-Prediction-Using-CNN)                              |
 | 3.       | [**Fine Tuning yolov8**](https://github.com/iamshishirbhattarai/Fine-Tuning-YOLOV8)                                                      | 
-
+| 4.       | [**Email Detection Using Naive Bayes Classifier**](https://github.com/iamshishirbhattarai/Email-Spam-Detection)                          |
 ___
 
 ## Day 1
