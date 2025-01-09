@@ -816,3 +816,16 @@ dependencies and context. This ability to model sequential data dynamically make
 machine translation compared to the rigid structure of n-grams. <br> <br>
   ![ngram](Day41_To_50/day48_ngram.png) <br> ![RNN](Day41_To_50/day48_RNN.png) <br> <Br>
 ___
+
+## Day 49
+
+Revised about **Vanilla RNN**, **GRU**, **Bi-directional RNN** and **Deep-RNN**.
+<br> <br> 
+- Recurrent Neural Networks (RNNs) are designed to process sequential data by passing information from one step to the next. A **Vanilla RNN**
+is the basic version, but it struggles with learning long-term dependencies due to issues like vanishing gradients.  <br> <br> ![VanillaRNN](Day41_To_50/day49_VanillaRNN.png) <br> <br>
+- **Gated Recurrent Units (GRUs)** improve this by using gates to control which information is remembered or forgotten, making them more efficient for capturing longer patterns. 
+<br> <Br> ![GRU](Day41_To_50/day49_GRU.png) <br> <br>
+- **Bidirectional RNNs** process sequences both forward and backward, which helps when context from both past and future is needed, such as in language translation. 
+<br> <br> ![BRNN](Day41_To_50/day49_BRNN.png) <br> <br>
+- **Deep RNNs** stack multiple RNN layers, making them capable of learning more complex patterns in the data. <br> <br> ![DeepRNN](Day41_To_50/day49_DeepRNN.png) <br>
+___
