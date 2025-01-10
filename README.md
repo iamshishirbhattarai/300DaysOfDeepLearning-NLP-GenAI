@@ -829,3 +829,11 @@ is the basic version, but it struggles with learning long-term dependencies due 
 <br> <br> ![BRNN](Day41_To_50/day49_BRNN.png) <br> <br>
 - **Deep RNNs** stack multiple RNN layers, making them capable of learning more complex patterns in the data. <br> <br> ![DeepRNN](Day41_To_50/day49_DeepRNN.png) <br>
 ___
+
+## Day 50
+
+With the revision of **LSTM**, learnt about **Training and Evaluating NER (Named Entity Recognition**. <br> <br>
+
+- ![TrainingNER](Day41_To_50/day50_trainingNER.png) <br> ![EvaluatingNER](Day41_To_50/day50_evaluatingNER.png) <br> <Br>
+
+___
