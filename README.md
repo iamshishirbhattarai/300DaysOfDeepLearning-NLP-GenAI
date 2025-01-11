@@ -837,3 +837,15 @@ With the revision of **LSTM**, learnt about **Training and Evaluating NER (Named
 - ![TrainingNER](Day41_To_50/day50_trainingNER.png) <br> ![EvaluatingNER](Day41_To_50/day50_evaluatingNER.png) <br> <Br>
 
 ___
+
+## Day 50
+
+Learnt about **Siamese Network**. <br> <br>
+- A **Siamese network** is a neural network architecture designed to compare two inputs by processing them in parallel with shared weights. 
+  It generates embeddings for both inputs, which are then compared using a similarity metric to determine their relationship.  
+ <br>  For example, in a question similarity task, two questions are passed through an embedding layer and an LSTM to extract their 
+ vector representations. These representations are compared using cosine similarity, producing a similarity score between \(-1\) and \(1\). A threshold (\(tau)) 
+is used to classify the questions as similar or different, depending on whether the score is above or below the threshold. 
+This approach is effective in tasks like detecting duplicate questions or measuring semantic similarity between texts. <br> <br> ![SiameseNetwork](Day51_To_60/day51_siameseNetwork.png) <br>
+
+____
