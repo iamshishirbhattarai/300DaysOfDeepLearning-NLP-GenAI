@@ -838,7 +838,7 @@ With the revision of **LSTM**, learnt about **Training and Evaluating NER (Named
 
 ___
 
-## Day 50
+## Day 51
 
 Learnt about **Siamese Network**. <br> <br>
 - A **Siamese network** is a neural network architecture designed to compare two inputs by processing them in parallel with shared weights. 
@@ -849,3 +849,20 @@ is used to classify the questions as similar or different, depending on whether 
 This approach is effective in tasks like detecting duplicate questions or measuring semantic similarity between texts. <br> <br> ![SiameseNetwork](Day51_To_60/day51_siameseNetwork.png) <br>
 
 ____
+
+## Day 52
+
+Learnt about **Triplet Loss** and **One-Shot Learning**. <br> <br>
+
+- **Triplet Loss :** **Triplet Loss** is a loss function used in metric learning to ensure that similar items are closer in the embedding 
+space while dissimilar items are farther apart, by comparing an anchor, a positive sample, and a negative sample. It minimizes the cosine 
+similarity between the anchor and positive sample while maximizing the cosine similarity between the anchor and negative sample, enforcing a margin for better separation. 
+**Hard Negative Mining** is a technique applied to Triplet Loss, focusing on the most difficult negative samples, such as the **Closest Negative** (most similar negative) 
+or the **Mean Negative** (average similarity of negatives), which helps the model learn more discriminative features and improves its performance on tasks like image retrieval and face verification.
+ <br> <br> ![tripletLoss](Day51_To_60/day52_tripletLoss.png) <br> ![hNM](Day51_To_60/day52_hardNegativeMining.png) <br> <br>
+- **One Shot Learning :** It is a machine learning paradigm where the model is trained to recognize patterns or classify data after being shown only a single
+example per class. It typically leverages techniques like Triplet Loss or Siamese networks to generalize from limited data by comparing new inputs to the known 
+example and determining their similarity. <br> <br> ![oneshot](Day51_To_60/day52_oneShot.png) <br> <br> 
+
+___
+
