@@ -866,3 +866,9 @@ example and determining their similarity. <br> <br> ![oneshot](Day51_To_60/day52
 
 ___
 
+## Day 53
+
+Completed the **Natural Language Processing with Sequence Models** course. Today just did programming assignment on **Siamese Network.**
+<br> <br>
+- ![SiameseNetworkProgram](Day51_To_60/day53_siameseNetworkProgram.png) <br>
+___
