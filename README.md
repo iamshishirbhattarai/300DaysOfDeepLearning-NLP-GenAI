@@ -21,7 +21,7 @@ ___
 | **1.**   | [**Learning representations by back-propagating errors**](https://www.nature.com/articles/323533a0)                                                                          |
 | **2.**   | [**ImageNet Classification with Deep Convolutional Neural Networks**](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) |
 | **3.**   | [**You Only Look Once: Unified, Real-Time Object Detection**](https://arxiv.org/abs/1506.02640)                                                                              |
-
+| **4.**   | [**Neural Machine Translation By Jointly Learning To Align And Translate**](https://arxiv.org/pdf/1409.0473)                                                                 |
 
 
 ## Projects
@@ -871,4 +871,21 @@ ___
 Completed the **Natural Language Processing with Sequence Models** course. Today just did programming assignment on **Siamese Network.**
 <br> <br>
 - ![SiameseNetworkProgram](Day51_To_60/day53_siameseNetworkProgram.png) <br>
+___
+
+## Day 54
+
+Explored Shortcomings of **Seq2Seq Models** and read [**Neural Machine Translation
+By Jointly Learning To Align And Translate**](https://arxiv.org/pdf/1409.0473) paper. <br> <br>
+
+- **Shortcomings of Seq2Seq :** Seq2seq models face a major limitation due to their reliance on a fixed-length context vector, which struggles to retain detailed information from long input sequences. Additionally, as the sequence length increases, the model's performance decreases, making it less effective for handling complex or lengthy data.
+  <br> <br> ![ShortcomingsSeq2Seq](Day51_To_60/day54_informationBottleneck.png) <br> <br>
+- **Solution :** <br> <br> ![focusAttention](Day51_To_60/day54_focusAttention.png) <br>
+  <br> The paper "**Neural Machine Translation by Jointly Learning to Align and Translate**" introduces the attention 
+ mechanism to address the fixed-length context vector limitation in seq2seq models. As shown in the **first image**, attention enables the
+ decoder to use a weighted sum of all encoder hidden states (instead of just one context vector) by 
+  dynamically assigning importance weights based on the decoder's previous state.  <br> <bR>The **second image** details how these weights, computed using a feedforward network followed by a softmax function, allow the model to focus on the most relevant parts of the input sequence for each decoding step. This innovation improves translation performance, especially for longer sequences, by enabling a more context-aware and flexible approach.
+  <br> <br> ![howToUseAllHiddenStates](Day51_To_60/day54_howToUseAllHiddenStates.png) <br> 
+   ![attentionInDepth](Day51_To_60/day54_attentionInDepth.png) <br> <br> **Performance Comparision** <br> <br>![Performance](Day51_To_60/day54_performance.png)
+
 ___
