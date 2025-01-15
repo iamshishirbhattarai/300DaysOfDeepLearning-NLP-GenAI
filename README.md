@@ -889,3 +889,21 @@ By Jointly Learning To Align And Translate**](https://arxiv.org/pdf/1409.0473) p
    ![attentionInDepth](Day51_To_60/day54_attentionInDepth.png) <br> <br> **Performance Comparision** <br> <br>![Performance](Day51_To_60/day54_performance.png)
 
 ___
+
+## Day 55
+
+Started the paper [**Attention Is All You Need**](https://arxiv.org/pdf/1706.03762). Learnt about few concepts as an individual
+topic. Today' understanding includes **Input Embedding** , **Positional Encoding**, **Scaled-dot product attention** and **Self-attention**.
+<br> <br> 
+- **Input Embedding** converts each word or token in the input sequence into a dense vector representation that captures its semantic meaning. 
+  <br> <br> **Positional Encoding** adds information about the position of each token in the sequence to its embedding, ensuring the model can 
+  understand word order since transformers lack inherent sequential awareness. <br> <br>  ![positional Encoding](Day51_To_60/day55_positionalEncoding.png)_Source : https://www.youtube.com/watch?v=bCz4OMemCcA_
+  <br> <br>
+- **Scaled-dot product attention :** It finds the importance of each word by comparing queries and keys, scales the result 
+ for stability, normalizes it, and uses it to combine the values for the final output. <br> <br> ![scaledDotProduct](Day51_To_60/day55_scaledDotProduct.png) <br> <br> 
+ **Query :** What the current word is looking for in the context.
+ <br> <br> **Key:** Describes the content of each word in the context.
+<br> <br> **Value:** The actual information carried by each word. <br> <br>
+- **Self-attention :** It allows each word in a sequence to focus on and weigh the importance of all other words to understand context and relationships.
+ It uses **scaled dot-product attention** to calculate how much focus each word (query) should give to all other words (keys) in the sequence, combining their information
+ (values) based on the resulting attention scores.
