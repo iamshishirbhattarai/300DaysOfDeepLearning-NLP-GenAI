@@ -907,3 +907,23 @@ topic. Today' understanding includes **Input Embedding** , **Positional Encoding
 - **Self-attention :** It allows each word in a sequence to focus on and weigh the importance of all other words to understand context and relationships.
  It uses **scaled dot-product attention** to calculate how much focus each word (query) should give to all other words (keys) in the sequence, combining their information
  (values) based on the resulting attention scores.
+
+___
+
+## Day 56
+
+Explored other aspects of **Transformers.** <br> <br>
+
+- **Multi-Head Attention :** It splits the input into multiple **heads** each independently focusing on different aspects of the data.
+  This allows the model to capture different patterns and relationships by focusing on various aspects of inputs in parallel.
+  <br> <br> ![multiHeadAttention](Day51_To_60/day56_MultiHeadAttention.png) <br> <br>
+- **Masked-Head Attention :** Ensures that the model can only attend to previous tokens when generating a sequence, preventing it from 
+  cheating by looking at future words. <br> <br> ![MaskedHeadAttention](Day51_To_60/day56_maskedHeadAttention.png) <br> <Br>
+- **Training and inference :** In training, the Transformer processes the entire sequence at once, using self-attention to compute relationships between all tokens in parallel, 
+enabling efficient learning of global dependencies. Positional encodings are added to the input embeddings to preserve order information. During inference, the model
+generates tokens one at a time, using a masked self-attention mechanism to ensure it only considers previously generated tokens for each new prediction. This approach ensures 
+the model maintains causal consistency while generating sequences. <br> <br> ![Transformer](Day51_To_60/day56_Transformer.png) <br> <br>
+  **Norm** here is the **Layer Normalization** which calculates the mean and variance of activations within individual example and normalizes the
+ activations of that specific example based on its own internal statistics.
+
+___
