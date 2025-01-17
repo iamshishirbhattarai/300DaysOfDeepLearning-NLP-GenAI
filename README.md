@@ -927,3 +927,12 @@ the model maintains causal consistency while generating sequences. <br> <br> ![T
  activations of that specific example based on its own internal statistics.
 
 ___
+
+## Day 57
+
+Started Coding the transformer from scratch. Today almost implemented Encoder part. 
+
+- ![InputPositional](Day51_To_60/day57_inputPositionalCode.png) <br> ![LayerFF](Day51_To_60/day57_layerFeedForwardCode.png) <br>
+ ![MultiHeadCode](Day51_To_60/day57_multiHeadCode.png) <br> ![ResiudalEncoder](Day51_To_60/day57_residualEncoderCode.png)
+ <br> 
+___
