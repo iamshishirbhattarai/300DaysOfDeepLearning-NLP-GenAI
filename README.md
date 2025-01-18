@@ -936,3 +936,13 @@ Started Coding the transformer from scratch. Today almost implemented Encoder pa
  ![MultiHeadCode](Day51_To_60/day57_multiHeadCode.png) <br> ![ResiudalEncoder](Day51_To_60/day57_residualEncoderCode.png)
  <br> 
 ___
+
+## Day 58
+
+
+Completed the model building of the transformer.
+
+- ![decoder](Day51_To_60/day58_decoderProjectionLayer.png) <br> ![transformerClass](Day51_To_60/day58_transformerClass.png) <br>
+  ![BuildTransformer](Day51_To_60/day58_buildTransformer.png) <br>
+
+___
