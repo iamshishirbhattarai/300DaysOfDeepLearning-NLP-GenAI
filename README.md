@@ -946,3 +946,8 @@ Completed the model building of the transformer.
   ![BuildTransformer](Day51_To_60/day58_buildTransformer.png) <br>
 
 ___
+
+## Day 59
+
+Coded the dataset portion. <br> <br>
+- ![DataSet](Day51_To_60/day59_dataSetCode.png)
