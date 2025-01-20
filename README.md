@@ -951,3 +951,14 @@ ___
 
 Coded the dataset portion. <br> <br>
 - ![DataSet](Day51_To_60/day59_dataSetCode.png)
+
+___
+
+## Day 60
+
+Got problem with the Scratch Implementation, will get back to this tomorrow. <br> <br>
+Today, explored how to perform an **OCR** using **pytesseract**. <br> <br>
+
+- ![OCR](Day51_To_60/day60_OCR.png) <br> <br>
+
+___
