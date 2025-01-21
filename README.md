@@ -956,9 +956,25 @@ ___
 
 ## Day 60
 
-Got problem with the Scratch Implementation, will get back to this tomorrow. <br> <br>
+Got problem with the Scratch Implementation, will get back to this soon. <br> <br>
 Today, explored how to perform an **OCR** using **pytesseract**. <br> <br>
 
 - ![OCR](Day51_To_60/day60_OCR.png) <br> <br>
+
+___
+
+## Day 61
+Will be working on the scratch implementation on the background and talk about it when finished. Today, thought of continuing
+the **NLP Specialization** and learnt about **Transfer Learning In NLP** and explored few **language models**. <br> <br>
+
+- **Transfer Learning In NLP :** It  means taking a language model that has already been trained on a lot of text and then adapting 
+it for a specific task, like understanding sentiment or answering questions, to save time and improve accuracy. <br> <br>
+  ![transferLearning](Day61_To_70/day61_transferLearning.png) <br> <br>
+- **Self-Supervised task :** Unlabeled data is easy to get because it’s everywhere, like in articles, websites, and books, 
+and doesn’t need people to label it. But labeled data is harder to find because it needs humans to go through and tag it, 
+which takes a lot of time and effort. **Self-supervised learning** helps by allowing models to learn from this huge amount of unlabeled
+data, creating their own tasks (like predicting missing words) to teach themselves and find patterns without needing human labels.
+    <br> <br> ![selfSupervised](Day61_To_70/day61_selfSupervisedTask.png) <br> <Br>
+- **Language Models summary :** <br> <br> ![LanguageModels](Day61_To_70/day61_ELMO2T5.png) <br> <br>
 
 ___
