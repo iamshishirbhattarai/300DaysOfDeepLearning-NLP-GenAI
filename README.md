@@ -978,3 +978,14 @@ data, creating their own tasks (like predicting missing words) to teach themselv
 - **Language Models summary :** <br> <br> ![LanguageModels](Day61_To_70/day61_ELMO2T5.png) <br> <br>
 
 ___
+
+## Day 62
+
+Learnt briefly about **BERT Pre-training** and **BERT FINE TUNING**. <br> <br>
+
+- **BERT** is pre-trained using **Masked Language Modeling (MLM**), where random words in a sentence are masked, and the model predicts 
+them using the surrounding context, and **Next Sentence Prediction (NSP)**, which trains the model to identify if one sentence logically 
+follows another. These tasks enable **BERT** to understand both word-level and sentence-level relationships, which are fine-tuned on specific tasks using labeled data.
+  <br> <br> ![finetuning](Day61_To_70/day62_bertFineTuning.png)
+
+___
