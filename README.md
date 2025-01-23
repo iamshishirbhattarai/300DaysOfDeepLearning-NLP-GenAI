@@ -10,7 +10,7 @@ ___
 |----------|---------------------------------------------------------------------------------------------------------------------------|------------| 
 | **1.**   | [**Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Part-II)**](https://github.com/ageron/handson-ml3) | ⏳          |
 | **2.**   | [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning)                                | ✅          |
-| **3.**   | [**NLP Specialization**](https://www.coursera.org/specializations/natural-language-processing)                            | ⏳          |  
+| **3.**   | [**NLP Specialization**](https://www.coursera.org/specializations/natural-language-processing)                            | ✅          |  
 | **4.**   | [**LLM-Course Repo**](https://github.com/mlabonne/llm-course/tree/main)                                                   | ⏳          |
 
 
