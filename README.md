@@ -989,3 +989,16 @@ follows another. These tasks enable **BERT** to understand both word-level and s
   <br> <br> ![finetuning](Day61_To_70/day62_bertFineTuning.png)
 
 ___
+
+## Day 63
+
+Completed the **NLP Specialization.** The remaining portion was about **T5 Model Architecture** and simple introduction to 
+**Hugging Face**. <br> <br>
+
+- **T5 Model Architecture :** The **T5 model** supports different architectures: the **Language Model (LM)**, **Prefix LM**, and the **encoder-decoder** 
+structure. In a Language Model, the input and output tokens are processed sequentially, focusing only on previous tokens (causal attention).
+**Prefix LM** combines bidirectional attention for the input and causal attention for generating the output. In T5’s main encoder-decoder setup,
+the encoder uses bidirectional attention for full context understanding, while the decoder uses causal attention to generate output step by step. This flexibility allows T5 to handle diverse tasks like translation, summarization, and more.
+ <br> <br> ![modelArchitectureT5](Day61_To_70/day63_T5Architecture.png) <br> ![multiTasking](Day61_To_70/day63_multiTaskingStrategy.png) 
+
+___
