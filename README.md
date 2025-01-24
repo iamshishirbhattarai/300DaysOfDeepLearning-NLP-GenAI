@@ -1002,3 +1002,15 @@ the encoder uses bidirectional attention for full context understanding, while t
  <br> <br> ![modelArchitectureT5](Day61_To_70/day63_T5Architecture.png) <br> ![multiTasking](Day61_To_70/day63_multiTaskingStrategy.png) 
 
 ___
+
+## Day 64
+
+Started exploring **OpenCV**. Went through the basics of **OpenCV** i.e. tasks like **reading** and **display8ing** images/vidos,
+**resizing**, **dilation**, **erosion**, etc. <br> <br>
+
+- **Reading and Displaying Images Videos** <br> <br> ![reading](Day61_To_70/day64_openCVReading.png) <br> <br>
+- **Rescaling** <br> <br> ![Rescaling](Day61_To_70/day64_openCVRescaling.png) <br> <br>
+- **Drawing** <br> <br> ![Drawing](Day61_To_70/day64_openCVDraw.png) <br> <br>
+- **Basic Functions** <br> <br> ![BasicFunctions](Day61_To_70/day64_openCVBasicFunctions.png) <br> <Br>
+___
+
