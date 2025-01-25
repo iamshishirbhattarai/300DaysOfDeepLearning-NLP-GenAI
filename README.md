@@ -1014,3 +1014,15 @@ Started exploring **OpenCV**. Went through the basics of **OpenCV** i.e. tasks l
 - **Basic Functions** <br> <br> ![BasicFunctions](Day61_To_70/day64_openCVBasicFunctions.png) <br> <Br>
 ___
 
+## Day 65
+
+Learnt to perform **transformations** like **translation**, **rotation** and **flipping**, **Contours** Detection and **Color Spaces**
+in **OpenCV**. <br> <br>
+
+- **Transformations** <br> <br> ![Transformations](Day61_To_70/day65_transformations.png) <br> <br>
+- **Contours Detection** <br> Contours are the outlines or boundaries of objects in an image, like tracing around a shape.
+    It might sounds like edges but edges are the sharp changes in brightness that highlight details but don’t always form complete shapes. <br> <br>
+    ![Contours](Day61_To_70/day65_Contours.png) <br> <br>
+- **Color Spaces** <br> <br> ![ColorSpaces](Day61_To_70/day65_colorSpaces.png) 
+
+___
