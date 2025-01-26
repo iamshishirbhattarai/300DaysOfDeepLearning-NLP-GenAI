@@ -1026,3 +1026,23 @@ in **OpenCV**. <br> <br>
 - **Color Spaces** <br> <br> ![ColorSpaces](Day61_To_70/day65_colorSpaces.png) 
 
 ___
+
+## Day 66
+
+Learnt to perform **Splitting and Merging** of **Color Channels**, **Bitwise Operations** and **Masking**.
+<br> <br>
+- **Splitting And Merging Color Channels** <br> 
+ It separates an image into its individual red, green, and blue components to 
+analyze or manipulate them independently, while merging combines modified or individual channels back into a complete 
+image for visualization or processing. <br> <br> ![splitMerge](Day61_To_70/day66_splitMergeColorChannels.png) <br> <br>
+- **Blurring** <br> In OpenCV, **average blurring** applies a uniform kernel to average pixel values in a neighborhood, 
+reducing noise but potentially losing edge details, while **GaussianBlur** uses a weighted kernel based on a Gaussian function, 
+offering smoother results with less edge distortion. **Median blur** replaces each pixel value with the median of its neighborhood,
+making it effective for salt-and-pepper noise, and **bilateral blur** preserves edges by combining spatial and intensity-based 
+filtering to smooth regions without blurring edges. <br> <br> ![blurring](Day61_To_70/day66_blurring.png) <br> <br>
+- **Bitwise Operations** <br> It manipulates pixel values at the binary level and are commonly used for tasks like masking, combining regions of interest, and performing logical operations on images.
+    <br> <br> ![bitwiseOperations](Day61_To_70/day66_bitwise.png) <br> <br>
+- **Masking** <br> It involves creating a binary mask to isolate or highlight specific regions of an image for focused processing, commonly used in tasks like region-based filtering, feature extraction, or selective analysis.
+   <br> <br> ![Masking](Day61_To_70/day66_masking.png) <br> <br>
+
+___
