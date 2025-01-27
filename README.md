@@ -1046,3 +1046,15 @@ filtering to smooth regions without blurring edges. <br> <br> ![blurring](Day61_
    <br> <br> ![Masking](Day61_To_70/day66_masking.png) <br> <br>
 
 ___
+
+## Day 67
+
+Learnt **Histogram** and other types of **Thresholding** and **Edge Detection** in **OpenCV**.
+<br> <br>
+- **Histogram** are used for analyzing pixel intensity distributions and performing tasks like contrast enhancement, thresholding, 
+and object segmentation. <br> <br> ![hist](Day61_To_70/day67_histogram.png) <br> <br>
+-  **Thresholding :** **Simple thresholding** requires a manually provided global threshold value for the entire image, while **adaptive thresholding** 
+automatically calculates thresholds dynamically for different regions based on local pixel intensities.<br> <br> ![thresh](Day61_To_70/day67_threshold.png) <br> <br>
+- **Edge Detection :** **Laplacian** detects edges using the second derivative to highlight rapid intensity changes, **Sobel** uses first derivatives with directional
+filters to find edges in specific orientations, while **Canny** combines Gaussian smoothing, gradient calculation, and hysteresis thresholding for more
+robust and accurate edge detection. <br> <br> ![edgeDetection](Day61_To_70/day67_edgeDetection.png) <br> <br>
