@@ -1058,3 +1058,15 @@ automatically calculates thresholds dynamically for different regions based on l
 - **Edge Detection :** **Laplacian** detects edges using the second derivative to highlight rapid intensity changes, **Sobel** uses first derivatives with directional
 filters to find edges in specific orientations, while **Canny** combines Gaussian smoothing, gradient calculation, and hysteresis thresholding for more
 robust and accurate edge detection. <br> <br> ![edgeDetection](Day61_To_70/day67_edgeDetection.png) <br> <br>
+
+___
+
+## Day 68
+
+Started exploring **Hugging Face**. Today just explored on what **Transformers** can do i.e. overview. <br> <br>
+
+- ![TransformersOverview](Day61_To_70/day68_whatTranformersCanDO.png)
+
+For the full notebook : [**Notebook**](https://github.com/iamshishirbhattarai/HuggingFace/blob/main/WhatTransformersCanDo.ipynb)
+
+___
