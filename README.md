@@ -1070,3 +1070,20 @@ Started exploring **Hugging Face**. Today just explored on what **Transformers**
 For the full notebook : [**Notebook**](https://github.com/iamshishirbhattarai/HuggingFace/blob/main/WhatTransformersCanDo.ipynb)
 
 ___
+
+## Day 69
+
+Got to explore **LlamaIndex**. Especially, focused on Learning to build **Agentic RAG** with **Llamaindex**.
+<br> <br>
+
+- **Router Query Engine :**  In LlamaIndex, it helps direct questions to the right set of data or search method. It ensures that each query gets the best possible 
+answer by choosing the most relevant source to look in. <br><br> ![Router Query Engine ](Day61_To_70/day69_routerQueryEngine.png) <br> 
+
+  Visit the full notebook here : [**Router Query Engine**](https://github.com/iamshishirbhattarai/Building-Agentic-RAG-With-LlamaIndex/blob/main/RouterQueryEngine.ipynb) <br> <br>
+
+- **Tool Calling :** In LlamaIndex, it allows queries to trigger external tools, APIs, or functions dynamically, enabling more interactive and powerful responses. It helps integrate real-world actions,
+ computations, or data retrieval into the LLM’s responses, making it more functional beyond just retrieving text. <br> <br> ![ToolCalling](Day61_To_70/day69_ToolCalling.png) <br> 
+   Visit the full notebook here: [**Tool Calling**](https://github.com/iamshishirbhattarai/Building-Agentic-RAG-With-LlamaIndex/blob/main/ToolCalling.ipynb)
+
+
+___
