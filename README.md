@@ -1087,3 +1087,17 @@ answer by choosing the most relevant source to look in. <br><br> ![Router Query 
 
 
 ___
+
+## Day 70
+
+Read and implemented **Agent Reasoning Loop** and **Multi Documents Agent**.  <br> <br>
+
+- An **agent reasoning loop** is an iterative process where an AI agent **analyzes a task, executes incremental steps, evaluates progress, and refines its actions** until a final solution is reached. <br> <br>
+ ![agentReasoningLoop](Day61_To_70/day70_AgentReasoningLoop.png) <br>
+ Visit the full notebook : [**AgentReasoningLoop**](https://github.com/iamshishirbhattarai/Building-Agentic-RAG-With-LlamaIndex/blob/main/AgentReasoningLoop.ipynb) <br> <br>
+
+ - A **multi-document agent** is an AI system that **retrieves, processes, and reasons over multiple documents simultaneously** to generate informed responses or insights. <br><br>
+ ![MultiDocumentAgent](Day61_To_70/day70_MultiDocumentsAgent.png) <br>
+ Visit the full notebook : [**MultiDocumentAgent**](https://github.com/iamshishirbhattarai/Building-Agentic-RAG-With-LlamaIndex/blob/main/MultiDocumentAgent.ipynb)
+
+ ___
