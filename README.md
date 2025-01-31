@@ -1101,3 +1101,10 @@ Read and implemented **Agent Reasoning Loop** and **Multi Documents Agent**.  <b
  Visit the full notebook : [**MultiDocumentAgent**](https://github.com/iamshishirbhattarai/Building-Agentic-RAG-With-LlamaIndex/blob/main/MultiDocumentAgent.ipynb)
 
  ___
+
+ ## Day 71
+
+ Explored **Llama-OCR** and **Llama-Parse**.
+
+ - **LlamaOCR** is an OCR-based tool designed for raw text extraction from images, scanned documents, and handwritten text, without preserving structure. On the other hand, **LlamaParse** is an advanced document parser that extracts and structures text accurately from PDFs, Markdown, and other formatted documents, ensuring that headings, tables, and formatting are preserved. The key difference is that **LlamaOCR** focuses on character recognition, while **LlamaParse** ensures structured document extraction for AI applications.
+   Attaching a short code snippet of each: <br> <br> **OCR** <br> ![LlamaOCR](Day71_To_80/day71_llamaOCR.png) <br> **Parse** <br> ![LlamaParse](Day71_To_80/day71_llamaParse.png)
