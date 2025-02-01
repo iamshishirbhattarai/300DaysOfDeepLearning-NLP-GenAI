@@ -1108,3 +1108,14 @@ Read and implemented **Agent Reasoning Loop** and **Multi Documents Agent**.  <b
 
  - **LlamaOCR** is an OCR-based tool designed for raw text extraction from images, scanned documents, and handwritten text, without preserving structure. On the other hand, **LlamaParse** is an advanced document parser that extracts and structures text accurately from PDFs, Markdown, and other formatted documents, ensuring that headings, tables, and formatting are preserved. The key difference is that **LlamaOCR** focuses on character recognition, while **LlamaParse** ensures structured document extraction for AI applications.
    Attaching a short code snippet of each: <br> <br> **OCR** <br> ![LlamaOCR](Day71_To_80/day71_llamaOCR.png) <br> **Parse** <br> ![LlamaParse](Day71_To_80/day71_llamaParse.png)
+
+___
+
+## Day 72
+
+Simply learnt about **Vector Databases** and especially learnt about **Qdrant** and its **Architecture**.
+
+- A **vector database** is a specialized database optimized for storing, indexing, and querying high-dimensional vector embeddings, enabling fast similarity searches for applications like AI, recommendation systems, and natural language processing. <br> <br>
+- **Qdrant** is an open-source vector database that helps store and search high-dimensional data quickly, making it useful for AI applications like recommendation systems and semantic search. <br> <br>
+  **Qdrant's Architecture** <br><br> ![qdrant's Architecture](Day71_To_80/day72_QdrantArchitecture.png)
+___
