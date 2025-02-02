@@ -1119,3 +1119,11 @@ Simply learnt about **Vector Databases** and especially learnt about **Qdrant** 
 - **Qdrant** is an open-source vector database that helps store and search high-dimensional data quickly, making it useful for AI applications like recommendation systems and semantic search. <br> <br>
   **Qdrant's Architecture** <br><br> ![qdrant's Architecture](Day71_To_80/day72_QdrantArchitecture.png)
 ___
+
+## Day 73
+
+
+
+Practiced creating a simple query based Chatbot that answers based on the pdf provided. <br> <br>
+
+- ![AIChatbot](Day71_To_80/day73_simpleChatbot.png)
