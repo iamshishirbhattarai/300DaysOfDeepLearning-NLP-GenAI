@@ -1127,3 +1127,17 @@ ___
 Practiced creating a simple query based Chatbot that answers based on the pdf provided. <br> <br>
 
 - ![AIChatbot](Day71_To_80/day73_simpleChatbot.png)
+
+____
+
+## Day 74
+
+Though surfacely I have been introduced to **RAG Pipeline** and has been already working on it, I thought of diving deeper 
+and understand the fundamentals.
+
+- **RAG Pipeline :** The **RAG pipeline** first processes and converts documents into a searchable format and stores them in a database. When a user asks a question, the system finds the most relevant information, combines it with the user’s question, and creates a **prompt**. This prompt is then sent to an AI model, which uses both the retrieved information and the question to generate a more accurate and informed response. <br> <br>
+  ![ragPipeline](Day71_To_80/day74_ragPipeline.png) <br> <br>
+- **Sentence Embeddings and Sentence BERT :** **Sentence embeddings** are numerical representations of sentences that capture their meaning in a way that allows for efficient comparison and retrieval in machine learning tasks. **Sentence-BERT (SBERT)** is a modification of BERT designed to generate high-quality sentence embeddings by fine-tuning BERT with a **Siamese network** structure, making it much faster and more effective for tasks like semantic similarity and search.
+ <br> <br> ![sentenceEmbeddings](Day71_To_80/day74_sentenceEmbeddings.png) <br> ![sentenceBERT](Day71_To_80/day74_sentenceBERT.png)
+
+ ___
