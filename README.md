@@ -1141,3 +1141,13 @@ and understand the fundamentals.
  <br> <br> ![sentenceEmbeddings](Day71_To_80/day74_sentenceEmbeddings.png) <br> ![sentenceBERT](Day71_To_80/day74_sentenceBERT.png)
 
  ___
+
+ ## Day 75
+
+ Continuing the **RAG Pipeline**, got to learn about the **HSNW** algorithm.
+
+ - The **Hierarchical Navigable Small World (HNSW)** algorithm is an advanced method used in vector databases for fast and efficient nearest neighbor search. It builds a multi-layered graph structure where higher layers contain fewer nodes for quick navigation, allowing faster retrieval of similar vectors compared to brute-force methods. <br> <br> ![HSNW](Day71_To_80/day75_HNSW.png)
+
+   In addition to this, I also took a course on **Understanding Prompt Engineering** from **DataCamp** and read a research paper [**Large Language Models as Data Preprocessors**](https://arxiv.org/pdf/2308.16361) where I basically learnt about the use of Prompts for Data Pre-processing. 
+
+___
