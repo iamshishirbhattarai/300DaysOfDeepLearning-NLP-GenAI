@@ -1151,3 +1151,11 @@ and understand the fundamentals.
    In addition to this, I also took a course on **Understanding Prompt Engineering** from **DataCamp** and read a research paper [**Large Language Models as Data Preprocessors**](https://arxiv.org/pdf/2308.16361) where I basically learnt about the use of Prompts for Data Pre-processing. 
 
 ___
+
+## Day 76
+
+Had a short overview on getting started with **Qdrant**. Will dive in detail from tomorrow.
+
+- ![startingQdrant](Day71_To_80/day76_startingQdrant.png)
+
+___
