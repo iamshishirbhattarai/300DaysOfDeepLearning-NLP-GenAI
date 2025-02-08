@@ -8,10 +8,10 @@ ___
 
 | **S.N.** | **Books and Lessons (Resources)**                                                                                         | **Status** |
 |----------|---------------------------------------------------------------------------------------------------------------------------|------------| 
-| **1.**   | [**Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Part-II)**](https://github.com/ageron/handson-ml3) | ⏳          |
-| **2.**   | [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning)                                | ✅          |
-| **3.**   | [**NLP Specialization**](https://www.coursera.org/specializations/natural-language-processing)                            | ✅          |  
-| **4.**   | [**LLM-Course Repo**](https://github.com/mlabonne/llm-course/tree/main)                                                   | ⏳          |
+| **1.**   | [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning)                                | ✅          |
+| **2.**   | [**NLP Specialization**](https://www.coursera.org/specializations/natural-language-processing)                            | ✅          |  
+| **3.**   | [**LLM-Course Repo**](https://github.com/mlabonne/llm-course/tree/main)                                                   | ⏳          |
+| **4.**   | [**Building Agentic RAG with LlamaIndex**](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)| ✅  |
 
 
 ## Research Papers
@@ -22,7 +22,8 @@ ___
 | **2.**   | [**ImageNet Classification with Deep Convolutional Neural Networks**](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) |
 | **3.**   | [**You Only Look Once: Unified, Real-Time Object Detection**](https://arxiv.org/abs/1506.02640)                                                                              |
 | **4.**   | [**Neural Machine Translation By Jointly Learning To Align And Translate**](https://arxiv.org/pdf/1409.0473)                                                                 |
-
+| **5.**   | [**Attention Is All You Need**](https://arxiv.org/pdf/1706.03762)                                                                                                            |
+| **6.**   | [**Large Language Models as Data Preprocessors**](https://arxiv.org/pdf/2308.16361)                                                                                          |
 
 ## Projects
 
@@ -1159,3 +1160,15 @@ Had a short overview on getting started with **Qdrant**. Will dive in detail fro
 - ![startingQdrant](Day71_To_80/day76_startingQdrant.png)
 
 ___
+
+## Day 77
+
+I created a **collection** in **Qdrant** and upserted the embeddings. Although the code ran without error, nothing was found in the collection. Will see this tomorrow. <br>
+Additionally, Looked over the best ways to **chunk** text for **RAG**.
+
+- **Character/Token Based Chunking:** Splits text into fixed-length segments by counting characters or tokens, without regard to semantic boundaries.
+<br>**Recursive Character/Token Based Chunking:** Applies a hierarchy of splitting rules, first using high-level delimiters and then recursively breaking down segments with lower-level token splits until each chunk meets a desired size.
+<br>**Semantic Chunking:** Divides text at natural points where shifts in meaning or topic occur, ensuring that each chunk represents a coherent semantic unit.
+<br>**Cluster Semantic Chunking:** Uses clustering algorithms on text embeddings to group semantically similar sentences or paragraphs into cohesive chunks.
+<br>**LLM Semantic Chunking:** Leverages large language models to dynamically determine optimal chunk boundaries based on contextual and semantic cues. <br><br>
+ ![evalReport](Day71_To_80/day77_evalTable.png)
