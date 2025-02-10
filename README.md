@@ -1172,3 +1172,15 @@ Additionally, Looked over the best ways to **chunk** text for **RAG**.
 <br>**Cluster Semantic Chunking:** Uses clustering algorithms on text embeddings to group semantically similar sentences or paragraphs into cohesive chunks.
 <br>**LLM Semantic Chunking:** Leverages large language models to dynamically determine optimal chunk boundaries based on contextual and semantic cues. <br><br>
  ![evalReport](Day71_To_80/day77_evalTable.png)
+
+___
+
+## Day 78
+
+Explored different types of **Retrievals** in **LangChain**. 
+
+You can see all types of retrievals here in detail : [**LangChain Docs**](https://python.langchain.com/v0.1/docs/modules/data_connection/)
+
+- ![**LangChain Retrieval**](Day71_To_80/day78_LangchainRetrievers.png) 
+
+___
