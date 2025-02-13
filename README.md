@@ -24,6 +24,7 @@ ___
 | **4.**   | [**Neural Machine Translation By Jointly Learning To Align And Translate**](https://arxiv.org/pdf/1409.0473)                                                                 |
 | **5.**   | [**Attention Is All You Need**](https://arxiv.org/pdf/1706.03762)                                                                                                            |
 | **6.**   | [**Large Language Models as Data Preprocessors**](https://arxiv.org/pdf/2308.16361)                                                                                          |
+| **7.**   | [**Late Chunking: Contextual Chunk Embeddings  Using Long-Context Embedding Models**](https://arxiv.org/pdf/2409.04701)                                                      |
 
 ## Projects
 
@@ -1184,3 +1185,19 @@ You can see all types of retrievals here in detail : [**LangChain Docs**](https:
 - ![**LangChain Retrieval**](Day71_To_80/day78_LangchainRetrievers.png) 
 
 ___
+
+## Day 79
+
+
+While exploring various other latest methods of **Chunking**, discovered about **Late Chunking**. Read the research paper, and got to know about this in detail. 
+<br> 
+
+- **Late chunking** is a method where a document is first tokenized and embedded as a whole before being dynamically chunked based on token embeddings. This approach preserves global context, ensuring that chunk embeddings retain interdependent relationships rather than treating chunks as isolated units.
+  **Long Late Chunking** extends Late Chunking by introducing overlapping chunks, ensuring better context retention across chunks while maintaining efficient processing for long documents. <br> <br>
+  ![Traditional Vs Late](Day71_To_80/day79_traditionalVsLateChunking.png)
+  ![LateChunkingAlgo](Day71_To_80/day79_lateChunkingAlgo.png)
+  ![LongLateChunkingAlgo](Day71_To_80/day79_longLateChunkingAlgo.png)  <Br>  <br>
+  
+   Research Paper : [**Late Chunking: Contextual Chunk Embeddings  Using Long-Context Embedding Models**](https://arxiv.org/pdf/2409.04701)
+
+   ___
