@@ -1201,3 +1201,11 @@ While exploring various other latest methods of **Chunking**, discovered about *
    Research Paper : [**Late Chunking: Contextual Chunk Embeddings  Using Long-Context Embedding Models**](https://arxiv.org/pdf/2409.04701)
 
    ___
+
+## Day 80
+
+Completed **Fundamentals of Agents** from the **Hugging Face Agents Course**. 
+Visit the details here : https://huggingface.co/learn/agents-course/en/unit0/introduction <br> <br>
+- ![HuggingFaceUnitOne](Day71_To_80/day80_huggingFaceAgentsUnitOne.jpeg)
+
+___
