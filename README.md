@@ -1209,3 +1209,13 @@ Visit the details here : https://huggingface.co/learn/agents-course/en/unit0/int
 - ![HuggingFaceUnitOne](Day71_To_80/day80_huggingFaceAgentsUnitOne.jpeg)
 
 ___
+
+## Day 81
+
+Completed **Unit 2** From the **Hugging Face Agents Course** that focuses on AI Agents Frameworks like **Smolagents** and **LlamaIndex**.
+Already been familiar with **LlamaIndex** (you may visit the github repository) : [**Building-Agentic-RAG-With-LlamaIndex**](https://github.com/iamshishirbhattarai/Building-Agentic-RAG-With-LlamaIndex).
+
+Along with this, dived deeper into LLMs through the **Andrej Karpathy's** youtube video: [**Deep Dive into LLMs like ChatGPT**](https://www.youtube.com/watch?v=7xTGNNLPyMI). <br> <br>
+- ![DeepDiveIntoLLMs](Day81_To_90/day81_deepDiveIntoLLMs.png)
+
+  _Image Derived from Andrej's resources_  (Resource Link: [**Click Here**](https://drive.google.com/file/d/1EZh5hNDzxMMy05uLhVryk061QYQGTxiN/view))
