@@ -1235,5 +1235,11 @@ It also reduces the total number of tokens needed, saving memory and speeding up
 
   ![bpe](Day81_To_90/day82_BPEImplementation.png)
 
+  Visit the Notebook : [**BPE Implementation**](https://github.com/iamshishirbhattarai/Large-Language-Models/blob/main/simple_bpe_from_scratch.ipynb)
+
+
+___
+
+
 
   
