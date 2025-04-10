@@ -1219,3 +1219,21 @@ Along with this, dived deeper into LLMs through the **Andrej Karpathy's** youtub
 - ![DeepDiveIntoLLMs](Day81_To_90/day81_deepDiveIntoLLMs.png)
 
   _Image Derived from Andrej's resources_  (Resource Link: [**Click Here**](https://drive.google.com/file/d/1EZh5hNDzxMMy05uLhVryk061QYQGTxiN/view))
+
+  ___
+
+## Day 82
+
+Dived deeper into **BPE (Byte-Pair Encoding)** and also did a simple implementation from scratch.
+
+
+- **Byte-Pair Encoding (BPE)** is a method used to break words into smaller parts, helpful in natural language processing.  It starts by treating each character as a token and then merges the most frequent pairs of characters or tokens to form new subword units.  
+This process repeats until a desired vocabulary size is reached.  
+BPE helps handle rare or unknown words by breaking them into known pieces, improving efficiency.  
+It also reduces the total number of tokens needed, saving memory and speeding up processing.
+<br>
+
+  ![bpe](Day81_To_90/day82_BPEImplementation.png)
+
+
+  
